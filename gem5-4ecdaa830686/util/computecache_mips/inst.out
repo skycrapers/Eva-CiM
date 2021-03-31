@@ -1,0 +1,6 @@
+  disasm                           seq_num  
+lw         r25, -29728(r28) 1
+beq        r7, r0, 0x41aabc 2
+addu       r16, r2, r0 25
+addu       r4, r17, r0 26
+addiu      r2, r0, 4001 27

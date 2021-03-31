@@ -1,0 +1,5 @@
+lw r25, -29728(r28) 1 False
+beq r7, r0, 0x41aabc 2 False
+addu r16, r2, r0 25 True
+addu r4, r17, r0 26 True
+addiu r2, r0, 4001 27 True

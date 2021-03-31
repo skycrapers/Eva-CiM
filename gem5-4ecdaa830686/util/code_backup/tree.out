@@ -1,0 +1,3376 @@
+#1             
+                addi_uop sp, sp, #4                                    4
+#2             
+                subi_uop sp, sp, #4                                    7
+#3             
+                subi_uop sp, sp, #4                                    9
+#4             
+                subi_uop sp, sp, #4                                   13
+#5             
+                subi_uop sp, sp, #24                                  24
+#6             
+                sub sp, sp, #304                                      26
+#7             
+                ldr r3, [sp, #8]                                      35
+                add r1, r3, #1                                        37
+#8             
+                ldr r3, [sp, #4]                                      38
+                mov r1, r1, LSL #2                                    39
+                add r1, r3, r1                                        40
+#9             
+                mov r12, r1                                           42
+                addi_uop r12, r12, #4                                 49
+#10            
+                subi_uop sp, sp, #32                                  70
+#11            
+                sub sp, sp, #8                                        72
+#12            
+                mov r0, r12                                           52
+                add r0, r0, #8                                        80
+#13            
+                cmps r3, #0                                           71
+                sub r3, r3, #3                                        97
+#14            
+                addi_uop r0, r0, #8                                  108
+#15            
+                cmps r3, #0                                          109
+                sub r3, r3, #3                                       136
+#16            
+                addi_uop r0, r0, #8                                  159
+#17            
+                cmps r3, #0                                          160
+                sub r3, r3, #3                                       179
+#18            
+                addi_uop r0, r0, #8                                  354
+#19            
+                cmps r3, #0                                          355
+                sub r3, r3, #3                                       357
+#20            
+                addi_uop r0, r0, #8                                  398
+#21            
+                cmps r3, #0                                          399
+                sub r3, r3, #3                                       433
+#22            
+                addi_uop r0, r0, #8                                  474
+#23            
+                cmps r3, #0                                          475
+                sub r3, r3, #3                                       509
+#24            
+                addi_uop r0, r0, #8                                  550
+#25            
+                cmps r3, #0                                          551
+                sub r3, r3, #3                                       585
+#26            
+                addi_uop r0, r0, #8                                  627
+#27            
+                cmps r3, #0                                          628
+                sub r3, r3, #3                                       668
+#28            
+                addi_uop r0, r0, #8                                  783
+#29            
+                cmps r3, #0                                          784
+                sub r3, r3, #3                                       815
+#30            
+                addi_uop r0, r0, #8                                  851
+#31            
+                cmps r3, #0                                          852
+                sub r3, r3, #3                                       899
+#32            
+                addi_uop r0, r0, #8                                  949
+#33            
+                cmps r3, #0                                          950
+                sub r3, r3, #3                                       989
+#34            
+                addi_uop r0, r0, #8                                 1014
+#35            
+                cmps r3, #0                                         1015
+                sub r3, r3, #3                                      1017
+#36            
+                addi_uop r0, r0, #8                                 1042
+#37            
+                cmps r3, #0                                         1043
+                sub r3, r3, #3                                      1045
+#38            
+                addi_uop r0, r0, #8                                 1070
+#39            
+                cmps r3, #0                                         1071
+                sub r3, r3, #3                                      1073
+#40            
+                mvn r2, #0                                           352
+                orr r2, r2, #1                                      1098
+#41            
+                mov r2, #0                                            76
+                mov r12, r2                                           82
+                ldr r3, [r0, #-4]                                   1097
+                eor r12, r12, r3                                    1099
+#42            
+                addi_uop r0, r0, #8                                 1101
+#43            
+                cmps r3, #0                                         1102
+                sub r3, r3, #3                                      1132
+#44            
+                orr r2, r2, #2                                      1157
+#45            
+                ldr r3, [r0, #-4]                                   1156
+                eor r12, r12, r3                                    1158
+#46            
+                addi_uop r0, r0, #8                                 1160
+#47            
+                cmps r3, #0                                         1161
+                sub r3, r3, #3                                      1198
+#48            
+                orr r2, r2, #4                                      1223
+#49            
+                mov r2, #0                                            76
+                mov r1, r2                                            96
+                ldr r3, [r0, #-4]                                   1222
+                eor r1, r1, r3                                      1224
+#50            
+                addi_uop r0, r0, #8                                 1226
+#51            
+                cmps r3, #0                                         1227
+                sub r3, r3, #3                                      1282
+#52            
+                orr r2, r2, #8                                      1315
+#53            
+                ldr r3, [r0, #-4]                                   1314
+                eor r1, r1, r3                                      1316
+#54            
+                addi_uop r0, r0, #8                                 1318
+#55            
+                add sp, sp, #8                                      1348
+#56            
+                addi_uop sp, sp, #32                                1353
+#57            
+                subi_uop sp, sp, #16                                1364
+#58            
+                sub sp, sp, #456                                    1365
+#59            
+                add r0, sp, #4                                      1366
+#60            
+                sub r0, r0, #2                                      1367
+#61            
+                addeq r1, sp, #132                                  1399
+#62            
+                ldrb r3, [r12, #0]                                  1404
+                sub r3, r3, #48                                     1405
+#63            
+                and r2, r3, #255                                    1406
+#64            
+                ldrb r1, [r12, #1]                                  1409
+                sub r3, r1, #48                                     1411
+#65            
+                mov r12, r1                                         1402
+                add r12, r12, #1                                    1413
+#66            
+                mov r2, r3                                          1410
+                orr r0, r2, r0, LSL #8                              1534
+#67            
+                mov r0, #0                                          1401
+                mov lr, r0                                          1403
+                add lr, lr, #1                                      1535
+#68            
+                add r12, r12, #1                                    1539
+#69            
+                ldrb r3, [r12, #0]                                  1541
+                sub r3, r3, #48                                     1542
+#70            
+                and r2, r3, #255                                    1543
+#71            
+                ldrb r1, [r12, #1]                                  1546
+                sub r3, r1, #48                                     1548
+#72            
+                add r12, r12, #1                                    1550
+#73            
+                mov r2, r3                                          1547
+                mov r2, r2, LSL #1                                  1557
+                mov r2, r3                                          1547
+                mov r3, r2, LSL #3                                  1556
+                add r2, r2, r3                                      1558
+#74            
+                ldrb r1, [r12, #1]                                  1546
+                add r2, r2, r1                                      1559
+#75            
+                addi_uop r12, r12, #1                               1561
+#76            
+                sub r2, r2, #48                                     1562
+#77            
+                ldrb r1, [r12, #1]!                                 1560
+                sub r3, r1, #48                                     1563
+#78            
+                orr r0, r2, r0, LSL #8                              1567
+#79            
+                cmps lr, #3                                         1537
+                add lr, lr, #1                                      1568
+#80            
+                add r12, r12, #1                                    1572
+#81            
+                ldrb r3, [r12, #0]                                  1574
+                sub r3, r3, #48                                     1575
+#82            
+                and r2, r3, #255                                    1576
+#83            
+                ldrb r1, [r12, #1]                                  1579
+                sub r3, r1, #48                                     1581
+#84            
+                add r12, r12, #1                                    1583
+#85            
+                mov r2, r3                                          1580
+                orr r0, r2, r0, LSL #8                              1600
+#86            
+                cmps lr, #3                                         1570
+                add lr, lr, #1                                      1601
+#87            
+                add sp, sp, #456                                    1613
+#88            
+                addi_uop sp, sp, #16                                1616
+#89            
+                subi_uop sp, sp, #36                                1660
+#90            
+                sub sp, sp, #20                                     1663
+#91            
+                cmps r1, #0                                         1664
+                ldr r3, [r2, #0]                                    1668
+                mov r3, r3, LSL #5                                  1669
+                add r2, r1, r3                                      1670
+#92            
+                cmps r1, r2                                         1671
+                add r1, r1, #32                                     1707
+#93            
+                cmps r1, r2                                         1708
+                add r1, r1, #32                                     1727
+#94            
+                cmps r1, r2                                         1728
+                add r1, r1, #32                                     1733
+#95            
+                cmps r1, r2                                         1734
+                add r1, r1, #32                                     1739
+#96            
+                cmps r4, #0                                         1808
+                sub r0, r4, #1                                      1812
+#97            
+                str_uop [sp, lr, #4]                                1659
+                add r0, r0, lr                                      1813
+#98            
+                cmps r4, #0                                         1808
+                mov r1, r4                                          1814
+                subs r2, r1, #1                                     1816
+#99            
+                ldr r0, [r3, #0]                                    1857
+                add r0, r0, #1184                                   1859
+#100           
+                ldr r8, [r1, #20]                                   1804
+                add r0, r0, r8                                      1860
+#101           
+                str_uop [sp, r6, #28]                               1653
+                add r0, r0, r6                                      1861
+#102           
+                str_uop [sp, fp, #8]                                1658
+                add r0, r0, fp                                      1862
+#103           
+                subi_uop sp, sp, #12                                1867
+#104           
+                sub sp, sp, #4                                      1869
+#105           
+                subi_uop sp, sp, #12                                1932
+#106           
+                addi_uop sp, sp, #12                                1951
+#107           
+                ldr r4, [r4, #0]                                    2022
+                str_uop [sp, r5, #8]                                1865
+                add r0, r4, r5                                      2023
+#108           
+                subi_uop sp, sp, #12                                2028
+#109           
+                addi_uop sp, sp, #12                                2087
+#110           
+                add sp, sp, #4                                      2108
+#111           
+                addi_uop sp, sp, #12                                2111
+#112           
+                ldr r4, [r1, #28]                                   1802
+                movcc r6, r4                                        1807
+                sub r12, r6, #1                                     2123
+#113           
+                ldr2_uop r4, [sp, #0]                               2085
+                mov r0, r4                                          2107
+                add r4, r0, #1184                                   2125
+#114           
+                add r4, r4, r12                                     2126
+#115           
+                ldr r3, [sp, #4]                                    2122
+                and r4, r4, r3                                      2127
+#116           
+                ldr r9, [pc, #336]                                  1858
+                str [r9, fp, #564]                                  2114
+                add r3, r4, fp                                      2128
+#117           
+                subi_uop sp, sp, #12                                2136
+#118           
+                ldr r2, [sp, #8]                                    2118
+                subs r2, r2, #4                                     2137
+#119           
+                str_uop [sp, r0, #12]                               2133
+                ands r12, r0, #3                                    2139
+#120           
+                ldr r1, [sp, #12]                                   2113
+                ands r12, r1, #3                                    2141
+#121           
+                subs r2, r2, #28                                    2143
+#122           
+                subi_uop sp, sp, #16                                2148
+#123           
+                ands r12, r2, #28                                   2173
+#124           
+                ldr_uop r36, [sp, #8]                               2110
+                uopReg_uop pc, r36                                  2112
+                rsb r12, r12, #32                                   2174
+                addne pc, pc, r12                                   2175
+#125           
+                ldr r1, [sp, #12]                                   2113
+                addi_uop r1, r1, #4                                 2178
+#126           
+                addi_uop r1, r1, #4                                 2180
+#127           
+                addi_uop r1, r1, #4                                 2182
+#128           
+                addi_uop r1, r1, #4                                 2184
+#129           
+                rsb r12, r12, #32                                   2174
+                add pc, pc, r12                                     2185
+#130           
+                str_uop [sp, r0, #12]                               2133
+                addi_uop r0, r0, #4                                 2203
+#131           
+                addi_uop r0, r0, #4                                 2205
+#132           
+                addi_uop r0, r0, #4                                 2207
+#133           
+                addi_uop r0, r0, #4                                 2209
+#134           
+                addi_uop sp, sp, #16                                2212
+#135           
+                addi_uopne r1, r1, #1                               2215
+#136           
+                addi_uopcs r1, r1, #1                               2217
+#137           
+                addi_uopne r0, r0, #1                               2220
+#138           
+                addi_uopcs r0, r0, #1                               2222
+#139           
+                addi_uop sp, sp, #12                                2226
+#140           
+                ldr2_uop r5, [sp, #0]                               2210
+                add r5, r5, #8                                      2228
+#141           
+                ldr r0, [pc, #200]                                  2266
+                str [r0, r9, #20]                                   2273
+                str [r9, r3, #568]                                  2278
+                add r3, r3, #63                                     2280
+#142           
+                ldr r0, [pc, #200]                                  2266
+                str [r0, r9, #20]                                   2273
+                str [r9, r10, #556]                                 2276
+                addeq r10, r10, #1                                  2281
+#143           
+                ldr r0, [pc, #200]                                  2266
+                str [r0, r9, #20]                                   2273
+                str [r9, r8, #552]                                  2279
+                add r0, r8, r10                                     2286
+#144           
+                sub r0, r0, #1                                      2287
+#145           
+                mov r1, r10                                         2288
+                subs r2, r1, #1                                     2300
+#146           
+                ldr r3, [r2, #0]                                    2330
+                add r3, r3, #15                                     2332
+#147           
+                mov r1, r10                                         2288
+                cmps r0, r1                                         2315
+                mov r0, r0, LSR r2                                  2321
+                add r3, r3, r0                                      2333
+#148           
+                add sp, sp, #20                                     2343
+#149           
+                addi_uop sp, sp, #36                                2349
+#150           
+                cmns r0, #4096                                      2386
+                subs r5, r0, #0                                     2388
+#151           
+                add r1, sp, #300                                    2391
+#152           
+                subi_uop sp, sp, #16                                2591
+#153           
+                subi_uop sp, sp, #12                                2613
+#154           
+                ldr2_uop r5, [r3, #0]                               2615
+                ldr r1, [sp, #4]                                    2577
+                and r3, r5, r1                                      2617
+#155           
+                str_uop [sp, r6, #4]                                2612
+                ldr r3, [pc, #92]                                   2600
+                str [r3, r2, #0]                                    2601
+                and r4, r6, r2                                      2618
+#156           
+                orrs r2, r3, r4                                     2619
+#157           
+                mov r1, #64                                         2616
+                ldr r2, [pc, #28]                                   2622
+                and r2, r1, r2                                      2624
+#158           
+                ldr r0, [r3, #0]                                    2599
+                ldr r3, [pc, #28]                                   2623
+                and r3, r0, r3                                      2625
+#159           
+                orr r2, r2, r3                                      2626
+#160           
+                addi_uop sp, sp, #12                                2658
+#161           
+                subi_uop sp, sp, #12                                2671
+#162           
+                sub sp, sp, #4                                      2672
+#163           
+                add sp, sp, #4                                      2676
+#164           
+                addi_uop sp, sp, #12                                2679
+#165           
+                subi_uop sp, sp, #28                                2704
+#166           
+                sub sp, sp, #12                                     2706
+#167           
+                subi_uop sp, sp, #24                                2724
+#168           
+                ldr r0, [pc, #684]                                  2710
+                bic r1, r0, #3                                      2737
+                addi_uop r1, r1, #4                                 2739
+#169           
+                ldr r0, [pc, #684]                                  2710
+                ands r3, r0, #3                                     2740
+#170           
+                rsb r0, r3, #0                                      2741
+                addne r0, r0, #4                                    2763
+#171           
+                addi_uopne r1, r1, #4                               2765
+#172           
+                addne r0, r0, #4                                    2774
+#173           
+                addi_uopne r1, r1, #4                               2776
+#174           
+                addne r0, r0, #1                                    2806
+#175           
+                addne r0, r0, #1                                    2808
+#176           
+                addne r0, r0, #1                                    2810
+#177           
+                cmps r12, #0                                        2896
+                ldrb r3, [r5, #1]                                   2898
+                orr r3, r12, r3, LSL #8                             2913
+#178           
+                sub r7, r0, #2                                      2915
+#179           
+                ldr r0, [pc, #684]                                  2710
+                mov r5, r0                                          2725
+                add r8, r5, #2                                      2916
+#180           
+                addi_uop sp, sp, #24                                2945
+#181           
+                ldrb r3, [r2, #0]                                   2952
+                subs r3, r3, #0                                     2954
+#182           
+                subi_uop sp, sp, #24                                2964
+#183           
+                ldr r0, [pc, #668]                                  2951
+                bic r1, r0, #3                                      2967
+                addi_uop r1, r1, #4                                 2969
+#184           
+                ldr r0, [pc, #668]                                  2951
+                ands r3, r0, #3                                     2970
+#185           
+                rsb r0, r3, #0                                      2971
+                addne r0, r0, #4                                    2977
+#186           
+                addi_uopne r1, r1, #4                               2979
+#187           
+                addne r0, r0, #4                                    3008
+#188           
+                addi_uopne r1, r1, #4                               3010
+#189           
+                addne r0, r0, #4                                    3038
+#190           
+                addi_uopne r1, r1, #4                               3040
+#191           
+                addne r0, r0, #4                                    3068
+#192           
+                addi_uopne r1, r1, #4                               3070
+#193           
+                addne r0, r0, #1                                    3073
+#194           
+                addne r0, r0, #1                                    3075
+#195           
+                addne r0, r0, #1                                    3077
+#196           
+                cmps r12, #0                                        3084
+                ldrb r3, [r5, #1]                                   3086
+                orr r3, r12, r3, LSL #8                             3090
+#197           
+                sub r7, r0, #2                                      3092
+#198           
+                ldr r0, [pc, #668]                                  2951
+                mov r5, r0                                          2965
+                add r8, r5, #2                                      3093
+#199           
+                addi_uop sp, sp, #24                                3099
+#200           
+                subi_uop sp, sp, #44                                3115
+#201           
+                str_uop [sp, r12, #12]                              3112
+                sub fp, r12, #4                                     3117
+#202           
+                sub sp, sp, #20                                     3118
+#203           
+                subi_uop sp, sp, #28                                3167
+#204           
+                sub sp, sp, #4                                      3170
+#205           
+                subi_uop sp, sp, #8                                 3298
+#206           
+                subi_uop sp, sp, #24                                3317
+#207           
+                addi_uopge sp, sp, #24                              3324
+#208           
+                mvn r0, #61440                                      3491
+                sub pc, r0, #31                                     3492
+#209           
+                subi_uop sp, sp, #16                                3560
+#210           
+                mvn r3, #61440                                      3572
+                sub pc, r3, #63                                     3574
+#211           
+                ldrex r3, [r2, #0]                                  3576
+                ldr r0, [pc, #836]                                  3535
+                subs r3, r3, r0                                     3577
+#212           
+                addi_uop sp, sp, #16                                3638
+#213           
+                addi_uop sp, sp, #24                                3782
+#214           
+                addi_uop sp, sp, #8                                 3821
+#215           
+                subi_uop sp, sp, #28                                3831
+#216           
+                sub sp, sp, #4                                      3834
+#217           
+                mvn r0, #61440                                      3879
+                sub pc, r0, #31                                     3880
+#218           
+                mvn r3, #61440                                      3931
+                sub pc, r3, #63                                     3933
+#219           
+                ldrex r3, [r2, #0]                                  3939
+                teqseq r3, #1                                       3579
+                rsbs r0, r3, #0                                     3581
+                subs r3, r3, r0                                     3940
+#220           
+                subi_uop sp, sp, #36                                4020
+#221           
+                sub sp, sp, #44                                     4022
+#222           
+                ldr r1, [sp, #16]                                   4026
+                add r0, r1, #11                                     4028
+#223           
+                cmps r7, #0                                         3923
+                mov r0, r7                                          4000
+                mov r8, r0                                          4023
+                add r9, r8, #56                                     4047
+#224           
+                ldr r5, [sp, #12]                                   4046
+                mov r3, r5, LSL #3                                  4048
+                sub r3, r3, #16                                     4049
+#225           
+                add r4, r9, r3                                      4050
+#226           
+                subi_uop sp, sp, #36                                4133
+#227           
+                sub sp, sp, #12                                     4136
+#228           
+                cmps r7, #0                                         3923
+                mov r0, r7                                          4000
+                mov r8, r0                                          4023
+                mov r0, r8                                          4116
+                addeq r3, r0, #56                                   4138
+#229           
+                cmps r7, #0                                         3923
+                mov r0, r7                                          4000
+                mov r8, r0                                          4023
+                mov r0, r8                                          4116
+                addeq r1, r0, #48                                   4139
+#230           
+                addeq r3, r3, #1008                                 4140
+#231           
+                moveq r2, r1                                        4141
+                str [r2, r2, #12]                                   4159
+                str [r2, r2, #8]                                    4160
+                add r2, r2, #8                                      4161
+#232           
+                cmps r2, r3                                         4162
+                str [r2, r2, #12]                                   4171
+                str [r2, r2, #8]                                    4172
+                add r2, r2, #8                                      4173
+#233           
+                cmps r2, r3                                         4174
+                str [r2, r2, #12]                                   4176
+                str [r2, r2, #8]                                    4177
+                add r2, r2, #8                                      4178
+#234           
+                cmps r2, r3                                         4179
+                str [r2, r2, #12]                                   4181
+                str [r2, r2, #8]                                    4182
+                add r2, r2, #8                                      4183
+#235           
+                cmps r2, r3                                         4184
+                str [r2, r2, #12]                                   4186
+                str [r2, r2, #8]                                    4187
+                add r2, r2, #8                                      4188
+#236           
+                cmps r2, r3                                         4189
+                str [r2, r2, #12]                                   4198
+                str [r2, r2, #8]                                    4199
+                add r2, r2, #8                                      4200
+#237           
+                cmps r2, r3                                         4201
+                str [r2, r2, #12]                                   4203
+                str [r2, r2, #8]                                    4204
+                add r2, r2, #8                                      4205
+#238           
+                cmps r2, r3                                         4206
+                str [r2, r2, #12]                                   4208
+                str [r2, r2, #8]                                    4209
+                add r2, r2, #8                                      4210
+#239           
+                cmps r2, r3                                         4211
+                str [r2, r2, #12]                                   4213
+                str [r2, r2, #8]                                    4214
+                add r2, r2, #8                                      4215
+#240           
+                cmps r2, r3                                         4216
+                str [r2, r2, #12]                                   4225
+                str [r2, r2, #8]                                    4226
+                add r2, r2, #8                                      4227
+#241           
+                cmps r2, r3                                         4228
+                str [r2, r2, #12]                                   4237
+                str [r2, r2, #8]                                    4238
+                add r2, r2, #8                                      4239
+#242           
+                cmps r2, r3                                         4240
+                str [r2, r2, #12]                                   4242
+                str [r2, r2, #8]                                    4243
+                add r2, r2, #8                                      4244
+#243           
+                cmps r2, r3                                         4245
+                str [r2, r2, #12]                                   4247
+                str [r2, r2, #8]                                    4248
+                add r2, r2, #8                                      4249
+#244           
+                cmps r2, r3                                         4250
+                str [r2, r2, #12]                                   4252
+                str [r2, r2, #8]                                    4253
+                add r2, r2, #8                                      4254
+#245           
+                cmps r2, r3                                         4255
+                str [r2, r2, #12]                                   4257
+                str [r2, r2, #8]                                    4258
+                add r2, r2, #8                                      4259
+#246           
+                cmps r2, r3                                         4260
+                str [r2, r2, #12]                                   4262
+                str [r2, r2, #8]                                    4263
+                add r2, r2, #8                                      4264
+#247           
+                cmps r2, r3                                         4265
+                str [r2, r2, #12]                                   4267
+                str [r2, r2, #8]                                    4268
+                add r2, r2, #8                                      4269
+#248           
+                cmps r2, r3                                         4270
+                str [r2, r2, #12]                                   4272
+                str [r2, r2, #8]                                    4273
+                add r2, r2, #8                                      4274
+#249           
+                cmps r2, r3                                         4275
+                str [r2, r2, #12]                                   4277
+                str [r2, r2, #8]                                    4278
+                add r2, r2, #8                                      4279
+#250           
+                cmps r2, r3                                         4280
+                str [r2, r2, #12]                                   4282
+                str [r2, r2, #8]                                    4283
+                add r2, r2, #8                                      4284
+#251           
+                cmps r2, r3                                         4285
+                str [r2, r2, #12]                                   4287
+                str [r2, r2, #8]                                    4288
+                add r2, r2, #8                                      4289
+#252           
+                cmps r2, r3                                         4290
+                str [r2, r2, #12]                                   4292
+                str [r2, r2, #8]                                    4293
+                add r2, r2, #8                                      4294
+#253           
+                cmps r2, r3                                         4295
+                str [r2, r2, #12]                                   4297
+                str [r2, r2, #8]                                    4298
+                add r2, r2, #8                                      4299
+#254           
+                cmps r2, r3                                         4300
+                str [r2, r2, #12]                                   4302
+                str [r2, r2, #8]                                    4303
+                add r2, r2, #8                                      4304
+#255           
+                cmps r2, r3                                         4305
+                str [r2, r2, #12]                                   4307
+                str [r2, r2, #8]                                    4308
+                add r2, r2, #8                                      4309
+#256           
+                cmps r2, r3                                         4310
+                str [r2, r2, #12]                                   4312
+                str [r2, r2, #8]                                    4313
+                add r2, r2, #8                                      4314
+#257           
+                cmps r2, r3                                         4315
+                str [r2, r2, #12]                                   4317
+                str [r2, r2, #8]                                    4318
+                add r2, r2, #8                                      4319
+#258           
+                cmps r2, r3                                         4320
+                str [r2, r2, #12]                                   4322
+                str [r2, r2, #8]                                    4323
+                add r2, r2, #8                                      4324
+#259           
+                cmps r2, r3                                         4325
+                str [r2, r2, #12]                                   4327
+                str [r2, r2, #8]                                    4328
+                add r2, r2, #8                                      4329
+#260           
+                cmps r2, r3                                         4330
+                str [r2, r2, #12]                                   4332
+                str [r2, r2, #8]                                    4333
+                add r2, r2, #8                                      4334
+#261           
+                cmps r2, r3                                         4335
+                str [r2, r2, #12]                                   4337
+                str [r2, r2, #8]                                    4338
+                add r2, r2, #8                                      4339
+#262           
+                cmps r2, r3                                         4340
+                str [r2, r2, #12]                                   4342
+                str [r2, r2, #8]                                    4343
+                add r2, r2, #8                                      4344
+#263           
+                cmps r2, r3                                         4345
+                str [r2, r2, #12]                                   4347
+                str [r2, r2, #8]                                    4348
+                add r2, r2, #8                                      4349
+#264           
+                cmps r2, r3                                         4350
+                str [r2, r2, #12]                                   4352
+                str [r2, r2, #8]                                    4353
+                add r2, r2, #8                                      4354
+#265           
+                cmps r2, r3                                         4355
+                str [r2, r2, #12]                                   4357
+                str [r2, r2, #8]                                    4358
+                add r2, r2, #8                                      4359
+#266           
+                cmps r2, r3                                         4360
+                str [r2, r2, #12]                                   4362
+                str [r2, r2, #8]                                    4363
+                add r2, r2, #8                                      4364
+#267           
+                cmps r2, r3                                         4365
+                str [r2, r2, #12]                                   4367
+                str [r2, r2, #8]                                    4368
+                add r2, r2, #8                                      4369
+#268           
+                cmps r2, r3                                         4370
+                str [r2, r2, #12]                                   4372
+                str [r2, r2, #8]                                    4373
+                add r2, r2, #8                                      4374
+#269           
+                cmps r2, r3                                         4375
+                str [r2, r2, #12]                                   4377
+                str [r2, r2, #8]                                    4378
+                add r2, r2, #8                                      4379
+#270           
+                cmps r2, r3                                         4380
+                str [r2, r2, #12]                                   4382
+                str [r2, r2, #8]                                    4383
+                add r2, r2, #8                                      4384
+#271           
+                cmps r2, r3                                         4385
+                str [r2, r2, #12]                                   4387
+                str [r2, r2, #8]                                    4388
+                add r2, r2, #8                                      4389
+#272           
+                cmps r2, r3                                         4390
+                str [r2, r2, #12]                                   4392
+                str [r2, r2, #8]                                    4393
+                add r2, r2, #8                                      4394
+#273           
+                cmps r2, r3                                         4395
+                str [r2, r2, #12]                                   4397
+                str [r2, r2, #8]                                    4398
+                add r2, r2, #8                                      4399
+#274           
+                cmps r2, r3                                         4400
+                str [r2, r2, #12]                                   4402
+                str [r2, r2, #8]                                    4403
+                add r2, r2, #8                                      4404
+#275           
+                cmps r2, r3                                         4405
+                str [r2, r2, #12]                                   4407
+                str [r2, r2, #8]                                    4408
+                add r2, r2, #8                                      4409
+#276           
+                cmps r2, r3                                         4410
+                str [r2, r2, #12]                                   4412
+                str [r2, r2, #8]                                    4413
+                add r2, r2, #8                                      4414
+#277           
+                cmps r2, r3                                         4415
+                str [r2, r2, #12]                                   4417
+                str [r2, r2, #8]                                    4418
+                add r2, r2, #8                                      4419
+#278           
+                cmps r2, r3                                         4420
+                str [r2, r2, #12]                                   4422
+                str [r2, r2, #8]                                    4423
+                add r2, r2, #8                                      4424
+#279           
+                cmps r2, r3                                         4425
+                str [r2, r2, #12]                                   4427
+                str [r2, r2, #8]                                    4428
+                add r2, r2, #8                                      4429
+#280           
+                cmps r2, r3                                         4430
+                str [r2, r2, #12]                                   4432
+                str [r2, r2, #8]                                    4433
+                add r2, r2, #8                                      4434
+#281           
+                cmps r2, r3                                         4435
+                str [r2, r2, #12]                                   4437
+                str [r2, r2, #8]                                    4438
+                add r2, r2, #8                                      4439
+#282           
+                cmps r2, r3                                         4440
+                str [r2, r2, #12]                                   4442
+                str [r2, r2, #8]                                    4443
+                add r2, r2, #8                                      4444
+#283           
+                cmps r2, r3                                         4445
+                str [r2, r2, #12]                                   4447
+                str [r2, r2, #8]                                    4448
+                add r2, r2, #8                                      4449
+#284           
+                cmps r2, r3                                         4450
+                str [r2, r2, #12]                                   4452
+                str [r2, r2, #8]                                    4453
+                add r2, r2, #8                                      4454
+#285           
+                cmps r2, r3                                         4455
+                str [r2, r2, #12]                                   4457
+                str [r2, r2, #8]                                    4458
+                add r2, r2, #8                                      4459
+#286           
+                cmps r2, r3                                         4460
+                str [r2, r2, #12]                                   4462
+                str [r2, r2, #8]                                    4463
+                add r2, r2, #8                                      4464
+#287           
+                cmps r2, r3                                         4465
+                str [r2, r2, #12]                                   4467
+                str [r2, r2, #8]                                    4468
+                add r2, r2, #8                                      4469
+#288           
+                cmps r2, r3                                         4470
+                str [r2, r2, #12]                                   4472
+                str [r2, r2, #8]                                    4473
+                add r2, r2, #8                                      4474
+#289           
+                cmps r2, r3                                         4475
+                str [r2, r2, #12]                                   4477
+                str [r2, r2, #8]                                    4478
+                add r2, r2, #8                                      4479
+#290           
+                cmps r2, r3                                         4480
+                str [r2, r2, #12]                                   4482
+                str [r2, r2, #8]                                    4483
+                add r2, r2, #8                                      4484
+#291           
+                cmps r2, r3                                         4485
+                str [r2, r2, #12]                                   4487
+                str [r2, r2, #8]                                    4488
+                add r2, r2, #8                                      4489
+#292           
+                cmps r2, r3                                         4490
+                str [r2, r2, #12]                                   4492
+                str [r2, r2, #8]                                    4493
+                add r2, r2, #8                                      4494
+#293           
+                cmps r2, r3                                         4495
+                str [r2, r2, #12]                                   4497
+                str [r2, r2, #8]                                    4498
+                add r2, r2, #8                                      4499
+#294           
+                cmps r2, r3                                         4500
+                str [r2, r2, #12]                                   4502
+                str [r2, r2, #8]                                    4503
+                add r2, r2, #8                                      4504
+#295           
+                cmps r2, r3                                         4505
+                str [r2, r2, #12]                                   4507
+                str [r2, r2, #8]                                    4508
+                add r2, r2, #8                                      4509
+#296           
+                cmps r2, r3                                         4510
+                str [r2, r2, #12]                                   4512
+                str [r2, r2, #8]                                    4513
+                add r2, r2, #8                                      4514
+#297           
+                cmps r2, r3                                         4515
+                str [r2, r2, #12]                                   4517
+                str [r2, r2, #8]                                    4518
+                add r2, r2, #8                                      4519
+#298           
+                cmps r2, r3                                         4520
+                str [r2, r2, #12]                                   4522
+                str [r2, r2, #8]                                    4523
+                add r2, r2, #8                                      4524
+#299           
+                cmps r2, r3                                         4525
+                str [r2, r2, #12]                                   4527
+                str [r2, r2, #8]                                    4528
+                add r2, r2, #8                                      4529
+#300           
+                cmps r2, r3                                         4530
+                str [r2, r2, #12]                                   4532
+                str [r2, r2, #8]                                    4533
+                add r2, r2, #8                                      4534
+#301           
+                cmps r2, r3                                         4535
+                str [r2, r2, #12]                                   4537
+                str [r2, r2, #8]                                    4538
+                add r2, r2, #8                                      4539
+#302           
+                cmps r2, r3                                         4540
+                str [r2, r2, #12]                                   4542
+                str [r2, r2, #8]                                    4543
+                add r2, r2, #8                                      4544
+#303           
+                cmps r2, r3                                         4545
+                str [r2, r2, #12]                                   4547
+                str [r2, r2, #8]                                    4548
+                add r2, r2, #8                                      4549
+#304           
+                cmps r2, r3                                         4550
+                str [r2, r2, #12]                                   4552
+                str [r2, r2, #8]                                    4553
+                add r2, r2, #8                                      4554
+#305           
+                cmps r2, r3                                         4555
+                str [r2, r2, #12]                                   4557
+                str [r2, r2, #8]                                    4558
+                add r2, r2, #8                                      4559
+#306           
+                cmps r2, r3                                         4560
+                str [r2, r2, #12]                                   4562
+                str [r2, r2, #8]                                    4563
+                add r2, r2, #8                                      4564
+#307           
+                cmps r2, r3                                         4565
+                str [r2, r2, #12]                                   4567
+                str [r2, r2, #8]                                    4568
+                add r2, r2, #8                                      4569
+#308           
+                cmps r2, r3                                         4570
+                str [r2, r2, #12]                                   4572
+                str [r2, r2, #8]                                    4573
+                add r2, r2, #8                                      4574
+#309           
+                cmps r2, r3                                         4575
+                str [r2, r2, #12]                                   4577
+                str [r2, r2, #8]                                    4578
+                add r2, r2, #8                                      4579
+#310           
+                cmps r2, r3                                         4580
+                str [r2, r2, #12]                                   4582
+                str [r2, r2, #8]                                    4583
+                add r2, r2, #8                                      4584
+#311           
+                cmps r2, r3                                         4585
+                str [r2, r2, #12]                                   4587
+                str [r2, r2, #8]                                    4588
+                add r2, r2, #8                                      4589
+#312           
+                cmps r2, r3                                         4590
+                str [r2, r2, #12]                                   4592
+                str [r2, r2, #8]                                    4593
+                add r2, r2, #8                                      4594
+#313           
+                cmps r2, r3                                         4595
+                str [r2, r2, #12]                                   4597
+                str [r2, r2, #8]                                    4598
+                add r2, r2, #8                                      4599
+#314           
+                cmps r2, r3                                         4600
+                str [r2, r2, #12]                                   4602
+                str [r2, r2, #8]                                    4603
+                add r2, r2, #8                                      4604
+#315           
+                cmps r2, r3                                         4605
+                str [r2, r2, #12]                                   4607
+                str [r2, r2, #8]                                    4608
+                add r2, r2, #8                                      4609
+#316           
+                cmps r2, r3                                         4610
+                str [r2, r2, #12]                                   4612
+                str [r2, r2, #8]                                    4613
+                add r2, r2, #8                                      4614
+#317           
+                cmps r2, r3                                         4615
+                str [r2, r2, #12]                                   4617
+                str [r2, r2, #8]                                    4618
+                add r2, r2, #8                                      4619
+#318           
+                cmps r2, r3                                         4620
+                str [r2, r2, #12]                                   4622
+                str [r2, r2, #8]                                    4623
+                add r2, r2, #8                                      4624
+#319           
+                cmps r2, r3                                         4625
+                str [r2, r2, #12]                                   4627
+                str [r2, r2, #8]                                    4628
+                add r2, r2, #8                                      4629
+#320           
+                cmps r2, r3                                         4630
+                str [r2, r2, #12]                                   4632
+                str [r2, r2, #8]                                    4633
+                add r2, r2, #8                                      4634
+#321           
+                cmps r2, r3                                         4635
+                str [r2, r2, #12]                                   4637
+                str [r2, r2, #8]                                    4638
+                add r2, r2, #8                                      4639
+#322           
+                cmps r2, r3                                         4640
+                str [r2, r2, #12]                                   4642
+                str [r2, r2, #8]                                    4643
+                add r2, r2, #8                                      4644
+#323           
+                cmps r2, r3                                         4645
+                str [r2, r2, #12]                                   4647
+                str [r2, r2, #8]                                    4648
+                add r2, r2, #8                                      4649
+#324           
+                cmps r2, r3                                         4650
+                str [r2, r2, #12]                                   4652
+                str [r2, r2, #8]                                    4653
+                add r2, r2, #8                                      4654
+#325           
+                cmps r2, r3                                         4655
+                str [r2, r2, #12]                                   4657
+                str [r2, r2, #8]                                    4658
+                add r2, r2, #8                                      4659
+#326           
+                cmps r2, r3                                         4660
+                str [r2, r2, #12]                                   4662
+                str [r2, r2, #8]                                    4663
+                add r2, r2, #8                                      4664
+#327           
+                cmps r2, r3                                         4665
+                str [r2, r2, #12]                                   4667
+                str [r2, r2, #8]                                    4668
+                add r2, r2, #8                                      4669
+#328           
+                cmps r2, r3                                         4670
+                str [r2, r2, #12]                                   4672
+                str [r2, r2, #8]                                    4673
+                add r2, r2, #8                                      4674
+#329           
+                cmps r2, r3                                         4675
+                str [r2, r2, #12]                                   4677
+                str [r2, r2, #8]                                    4678
+                add r2, r2, #8                                      4679
+#330           
+                cmps r2, r3                                         4680
+                str [r2, r2, #12]                                   4682
+                str [r2, r2, #8]                                    4683
+                add r2, r2, #8                                      4684
+#331           
+                cmps r2, r3                                         4685
+                str [r2, r2, #12]                                   4687
+                str [r2, r2, #8]                                    4688
+                add r2, r2, #8                                      4689
+#332           
+                cmps r2, r3                                         4690
+                str [r2, r2, #12]                                   4692
+                str [r2, r2, #8]                                    4693
+                add r2, r2, #8                                      4694
+#333           
+                cmps r2, r3                                         4695
+                str [r2, r2, #12]                                   4697
+                str [r2, r2, #8]                                    4698
+                add r2, r2, #8                                      4699
+#334           
+                cmps r2, r3                                         4700
+                str [r2, r2, #12]                                   4702
+                str [r2, r2, #8]                                    4703
+                add r2, r2, #8                                      4704
+#335           
+                cmps r2, r3                                         4705
+                str [r2, r2, #12]                                   4707
+                str [r2, r2, #8]                                    4708
+                add r2, r2, #8                                      4709
+#336           
+                cmps r2, r3                                         4710
+                str [r2, r2, #12]                                   4712
+                str [r2, r2, #8]                                    4713
+                add r2, r2, #8                                      4714
+#337           
+                cmps r2, r3                                         4715
+                str [r2, r2, #12]                                   4717
+                str [r2, r2, #8]                                    4718
+                add r2, r2, #8                                      4719
+#338           
+                cmps r2, r3                                         4720
+                str [r2, r2, #12]                                   4722
+                str [r2, r2, #8]                                    4723
+                add r2, r2, #8                                      4724
+#339           
+                cmps r2, r3                                         4725
+                str [r2, r2, #12]                                   4727
+                str [r2, r2, #8]                                    4728
+                add r2, r2, #8                                      4729
+#340           
+                cmps r2, r3                                         4730
+                str [r2, r2, #12]                                   4732
+                str [r2, r2, #8]                                    4733
+                add r2, r2, #8                                      4734
+#341           
+                cmps r2, r3                                         4735
+                str [r2, r2, #12]                                   4737
+                str [r2, r2, #8]                                    4738
+                add r2, r2, #8                                      4739
+#342           
+                cmps r2, r3                                         4740
+                str [r2, r2, #12]                                   4742
+                str [r2, r2, #8]                                    4743
+                add r2, r2, #8                                      4744
+#343           
+                cmps r2, r3                                         4745
+                str [r2, r2, #12]                                   4747
+                str [r2, r2, #8]                                    4748
+                add r2, r2, #8                                      4749
+#344           
+                cmps r2, r3                                         4750
+                str [r2, r2, #12]                                   4752
+                str [r2, r2, #8]                                    4753
+                add r2, r2, #8                                      4754
+#345           
+                cmps r2, r3                                         4755
+                str [r2, r2, #12]                                   4757
+                str [r2, r2, #8]                                    4758
+                add r2, r2, #8                                      4759
+#346           
+                cmps r2, r3                                         4760
+                str [r2, r2, #12]                                   4762
+                str [r2, r2, #8]                                    4763
+                add r2, r2, #8                                      4764
+#347           
+                cmps r2, r3                                         4765
+                str [r2, r2, #12]                                   4767
+                str [r2, r2, #8]                                    4768
+                add r2, r2, #8                                      4769
+#348           
+                cmps r2, r3                                         4770
+                str [r2, r2, #12]                                   4772
+                str [r2, r2, #8]                                    4773
+                add r2, r2, #8                                      4774
+#349           
+                cmps r2, r3                                         4775
+                str [r2, r2, #12]                                   4777
+                str [r2, r2, #8]                                    4778
+                add r2, r2, #8                                      4779
+#350           
+                cmps r2, r3                                         4780
+                str [r2, r2, #12]                                   4782
+                str [r2, r2, #8]                                    4783
+                add r2, r2, #8                                      4784
+#351           
+                cmps r2, r3                                         4785
+                str [r2, r2, #12]                                   4787
+                str [r2, r2, #8]                                    4788
+                add r2, r2, #8                                      4789
+#352           
+                cmps r2, r3                                         4790
+                str [r2, r2, #12]                                   4792
+                str [r2, r2, #8]                                    4793
+                add r2, r2, #8                                      4794
+#353           
+                cmps r2, r3                                         4795
+                str [r2, r2, #12]                                   4797
+                str [r2, r2, #8]                                    4798
+                add r2, r2, #8                                      4799
+#354           
+                cmps r2, r3                                         4800
+                str [r2, r2, #12]                                   4802
+                str [r2, r2, #8]                                    4803
+                add r2, r2, #8                                      4804
+#355           
+                cmps r2, r3                                         4805
+                str [r2, r2, #12]                                   4807
+                str [r2, r2, #8]                                    4808
+                add r2, r2, #8                                      4809
+#356           
+                cmps r2, r3                                         4810
+                str [r2, r2, #12]                                   4812
+                str [r2, r2, #8]                                    4813
+                add r2, r2, #8                                      4814
+#357           
+                cmps r2, r3                                         4815
+                str [r2, r2, #12]                                   4817
+                str [r2, r2, #8]                                    4818
+                add r2, r2, #8                                      4819
+#358           
+                ldreq r2, [r10, #4]                                 4897
+                orrne r2, r2, #2                                    4898
+#359           
+                ldr r3, [pc, #356]                                  4892
+                cmps r10, r3                                        4894
+                strne [r10, r2, #4]                                 4900
+                orr r3, r2, #1                                      4901
+#360           
+                add sp, sp, #12                                     4903
+#361           
+                addi_uop sp, sp, #36                                4909
+#362           
+                ldr2_uop r8, [sp, #16]                              4906
+                add r6, r8, #48                                     4917
+#363           
+                ldr2_uop r10, [sp, #24]                             4907
+                add r1, r10, #16                                    4918
+#364           
+                ldr r1, [sp, #20]                                   4945
+                add r3, r1, #1                                      4946
+#365           
+                and r2, r3, #31                                     4947
+#366           
+                mov r3, r3, LSL #3                                  4949
+                sub r3, r3, #16                                     4950
+#367           
+                mov r12, r3, LSR #5                                 4948
+                add r4, r12, #268                                   4951
+#368           
+                str_uop [sp, r9, #16]                               4129
+                add r1, r9, r3                                      4952
+#369           
+                movcc r3, #0                                        4957
+                orrhi r3, r3, #1                                    4959
+#370           
+                ldr2_uop r8, [sp, #16]                              4906
+                mov r3, r4, LSL #2                                  4962
+                add r3, r8, r3                                      4963
+#371           
+                mov r12, r3, LSR #5                                 4948
+                add r12, r12, #1                                    4964
+#372           
+                addi_uop r3, r3, #4                                 4968
+#373           
+                cmps r12, #3                                        4965
+                add r12, r12, #1                                    4974
+#374           
+                addi_uop r3, r3, #4                                 4978
+#375           
+                cmps r12, #3                                        4975
+                add r12, r12, #1                                    4981
+#376           
+                addi_uop r3, r3, #4                                 4985
+#377           
+                cmps r12, #3                                        4982
+                add r12, r12, #1                                    4988
+#378           
+                ldr fp, [pc, #3244]                                 4916
+                cmps r10, fp                                        4943
+                add r0, r10, #16                                    5052
+#379           
+                ldr r2, [r0, #28]                                   5112
+                sub r2, r2, #1                                      5114
+#380           
+                ldr r2, [r8, #4]                                    5139
+                ands r2, r2, #2                                     5141
+#381           
+                ldr r3, [r0, #4]                                    5140
+                add r3, r3, #16                                     5142
+#382           
+                ldr2_uop r10, [sp, #24]                             4907
+                add r3, r3, r10                                     5144
+#383           
+                ldreq r1, [sp, #24]                                 5143
+                rsbeq r3, r1, r3                                    5146
+                ldr r0, [sp, #28]                                   5145
+                add r3, r3, r0                                      5147
+#384           
+                ldreq r1, [sp, #24]                                 5143
+                and r6, r3, r1                                      5149
+#385           
+                subi_uop sp, sp, #4                                 5182
+#386           
+                sub sp, sp, #4                                      5183
+#387           
+                subi_uop sp, sp, #12                                5200
+#388           
+                sub sp, sp, #4                                      5202
+#389           
+                ldr r4, [r4, #0]                                    5238
+                str_uop [sp, r5, #8]                                5198
+                add r0, r4, r5                                      5239
+#390           
+                subi_uop sp, sp, #12                                5244
+#391           
+                addi_uop sp, sp, #12                                5303
+#392           
+                add sp, sp, #4                                      5308
+#393           
+                addi_uop sp, sp, #12                                5311
+#394           
+                add sp, sp, #4                                      5315
+#395           
+                addi_uop sp, sp, #4                                 5317
+#396           
+                moveq r0, #0                                        5314
+                subs r4, r0, #0                                     5361
+#397           
+                cmps r6, #0                                         5150
+                ldr r2, [r0, #1092]                                 5392
+                add lr, r6, r2                                      5395
+#398           
+                cmps r5, #0                                         5235
+                ldr r3, [sp, #24]                                   5394
+                add r12, r5, r3                                     5396
+#399           
+                mov r1, #1                                          5386
+                andeq r3, r1, #1                                    5399
+#400           
+                ldr r3, [r2, #4]                                    5419
+                mov r3, r3, LSR #1                                  5421
+                eor r3, r3, #1                                      5422
+#401           
+                ldr r2, [sp, #24]                                   5420
+                subs fp, r2, #0                                     5423
+#402           
+                and r0, r3, #1                                      5425
+#403           
+                ldr r2, [pc, #752]                                  5387
+                moveq r3, r2                                        5391
+                streq [r3, r4, #44]                                 5393
+                cmps r12, r4                                        5397
+                ldr r2, [pc, #752]                                  5387
+                moveq r3, r2                                        5391
+                streq [r3, r4, #44]                                 5393
+                rsbne r3, r12, r4                                   5470
+                ldr r0, [pc, #724]                                  5388
+                str [r0, lr, #1092]                                 5401
+                addne r3, r3, lr                                    5472
+#404           
+                ldr r2, [pc, #752]                                  5387
+                moveq r3, r2                                        5391
+                streq [r3, r4, #44]                                 5393
+                ands r3, r4, #7                                     5475
+#405           
+                rsbne r3, r3, #8                                    5476
+                movne r1, r3                                        5478
+                ldr r2, [sp, #24]                                   5473
+                add r1, r1, r2                                      5479
+#406           
+                add r2, r1, r6                                      5480
+#407           
+                ldr r2, [pc, #752]                                  5387
+                moveq r3, r2                                        5391
+                streq [r3, r4, #44]                                 5393
+                add r2, r4, r2                                      5482
+#408           
+                ldr r2, [pc, #752]                                  5387
+                moveq r3, r2                                        5391
+                streq [r3, r4, #44]                                 5393
+                rsbne r3, r3, #8                                    5476
+                addne r7, r4, r3                                    5483
+#409           
+                ldr r0, [sp, #28]                                   5481
+                add r3, r2, r0                                      5484
+#410           
+                ldr r0, [sp, #36]                                   5485
+                and r3, r3, r0                                      5487
+#411           
+                rsb r1, r2, r1                                      5486
+                add r4, r1, r3                                      5489
+#412           
+                subi_uop sp, sp, #4                                 5498
+#413           
+                sub sp, sp, #4                                      5499
+#414           
+                subi_uop sp, sp, #12                                5504
+#415           
+                sub sp, sp, #4                                      5506
+#416           
+                ldr r4, [r4, #0]                                    5543
+                str_uop [sp, r5, #8]                                5502
+                add r0, r4, r5                                      5544
+#417           
+                subi_uop sp, sp, #12                                5549
+#418           
+                addi_uop sp, sp, #12                                5608
+#419           
+                add sp, sp, #4                                      5613
+#420           
+                addi_uop sp, sp, #12                                5616
+#421           
+                add sp, sp, #4                                      5620
+#422           
+                addi_uop sp, sp, #4                                 5622
+#423           
+                moveq r0, #0                                        5619
+                subs r9, r0, #0                                     5648
+#424           
+                ldr2_uop r4, [sp, #0]                               5614
+                add r3, r9, r4                                      5667
+#425           
+                mov r7, #45                                         5551
+                rsb r3, r7, r3                                      5668
+                orr r3, r3, #1                                      5669
+#426           
+                ldr2_uop r4, [sp, #0]                               5614
+                ldr r2, [r3, #1092]                                 5673
+                add r2, r4, r2                                      5675
+#427           
+                ldr r5, [r8, #48]                                   5678
+                ldr2_uop r10, [sp, #24]                             4907
+                add r0, r5, r10                                     5698
+#428           
+                ldr r5, [r8, #48]                                   5678
+                add r4, r5, #8                                      5700
+#429           
+                ldr r3, [r0, #8]                                    5111
+                cmps r10, r3                                        5113
+                orr r3, r10, #1                                     5704
+#430           
+                ldr r1, [sp, #32]                                   5690
+                orr r3, r3, r1                                      5705
+#431           
+                ldr r3, [r0, #8]                                    5111
+                cmps r10, r3                                        5113
+                ldr r3, [r5, #4]                                    5693
+                bic r2, r3, #7                                      5694
+                rsb r2, r10, r2                                     5703
+                orr r2, r2, #1                                      5706
+#432           
+                add sp, sp, #44                                     5724
+#433           
+                addi_uop sp, sp, #36                                5730
+#434           
+                cmps r4, #0                                         5710
+                mov r5, r4                                          5716
+                mov r0, r5                                          5723
+                subs r5, r0, #0                                     5748
+#435           
+                mvn r3, #61440                                      5758
+                sub pc, r3, #63                                     5760
+#436           
+                ldrex r3, [r2, #0]                                  5798
+                ldr r3, [pc, #1412]                                 5697
+                cmps r8, r3                                         5699
+                str [r8, r0, #48]                                   5708
+                subs r3, r3, r0                                     5799
+#437           
+                add sp, sp, #4                                      5882
+#438           
+                addi_uop sp, sp, #28                                5887
+#439           
+                add sp, sp, #4                                      5897
+#440           
+                addi_uop sp, sp, #28                                5902
+#441           
+                ldr r3, [r9, #0]                                    5911
+                mov r3, r3, LSL #2                                  5913
+                add r3, r3, #39                                     5914
+#442           
+                mov r1, #0                                          5751
+                mov r4, r1, LSR #4                                  5916
+                mov r5, r4, LSL #4                                  5917
+                mov r1, #0                                          5751
+                mov r4, r1, LSR #4                                  5916
+                mov r0, r4, LSL #6                                  5918
+                add r0, r5, r0                                      5919
+#443           
+                mov r3, r0, LSL #4                                  5920
+                add r0, r0, r3                                      5921
+#444           
+                subi_uop sp, sp, #28                                5931
+#445           
+                sub sp, sp, #4                                      5934
+#446           
+                mvn r0, #61440                                      5940
+                sub pc, r0, #31                                     5941
+#447           
+                mvn r3, #61440                                      5992
+                sub pc, r3, #63                                     5994
+#448           
+                ldrex r3, [r2, #0]                                  6019
+                subs r3, r3, r0                                     6020
+#449           
+                subi_uop sp, sp, #36                                6081
+#450           
+                sub sp, sp, #44                                     6083
+#451           
+                ldr r1, [sp, #16]                                   6087
+                add r0, r1, #11                                     6089
+#452           
+                cmps r3, #38                                        6134
+                addls r3, r3, #56                                   6135
+#453           
+                cmps r3, #20                                        6139
+                addls r3, r3, #91                                   6140
+#454           
+                cmps r7, #0                                         5984
+                mov r0, r7                                          6069
+                mov r8, r0                                          6084
+                add r9, r8, #56                                     6175
+#455           
+                cmps r7, #0                                         5984
+                mov r0, r7                                          6069
+                mov r8, r0                                          6084
+                add r6, r8, #48                                     6177
+#456           
+                cmps r10, #512                                      6098
+                add r1, r10, #16                                    6178
+#457           
+                ldr r0, [sp, #20]                                   6221
+                mov r3, r0, LSL #3                                  6222
+                sub r3, r3, #16                                     6223
+#458           
+                add r1, r9, r3                                      6224
+#459           
+                ldr r1, [sp, #20]                                   6239
+                add r3, r1, #1                                      6240
+#460           
+                and r2, r3, #31                                     6241
+#461           
+                mov r3, r3, LSL #3                                  6243
+                sub r3, r3, #16                                     6244
+#462           
+                mov r12, r3, LSR #5                                 6242
+                add r4, r12, #268                                   6245
+#463           
+                add r1, r9, r3                                      6246
+#464           
+                movcc r3, #0                                        6251
+                orrhi r3, r3, #1                                    6253
+#465           
+                cmps r7, #0                                         5984
+                mov r0, r7                                          6069
+                mov r8, r0                                          6084
+                mov r3, r4, LSL #2                                  6256
+                add r3, r8, r3                                      6257
+#466           
+                mov r12, r3, LSR #5                                 6242
+                add r12, r12, #1                                    6258
+#467           
+                ldr fp, [pc, #3244]                                 6176
+                cmps r10, fp                                        6185
+                add r0, r10, #16                                    6262
+#468           
+                ldr r5, [r8, #48]                                   6261
+                cmps r0, #15                                        6090
+                bichi r10, r0, #7                                   6093
+                add r0, r5, r10                                     6313
+#469           
+                ldr fp, [pc, #3244]                                 6176
+                cmps r10, fp                                        6185
+                orr r3, r10, #1                                     6321
+#470           
+                ldr r2, [pc, #1768]                                 6312
+                orr r3, r3, r2                                      6322
+#471           
+                ldr fp, [pc, #3244]                                 6176
+                cmps r10, fp                                        6185
+                ldr r3, [sp, #24]                                   6316
+                rsb r1, r10, r3                                     6320
+                orr r1, r1, #1                                      6323
+#472           
+                ldr r5, [r8, #48]                                   6261
+                add r4, r5, #8                                      6327
+#473           
+                add sp, sp, #44                                     6356
+#474           
+                addi_uop sp, sp, #36                                6362
+#475           
+                mov r5, r4                                          6353
+                mov r0, r5                                          6355
+                subs r5, r0, #0                                     6364
+#476           
+                mvn r3, #61440                                      6374
+                sub pc, r3, #63                                     6376
+#477           
+                ldrex r3, [r2, #0]                                  6392
+                ldr r2, [pc, #1768]                                 6312
+                cmps r8, r2                                         6315
+                str [r8, r0, #48]                                   6325
+                subs r3, r3, r0                                     6393
+#478           
+                add sp, sp, #4                                      6408
+#479           
+                addi_uop sp, sp, #28                                6413
+#480           
+                ldr2_uop r4, [sp, #0]                               6409
+                mov r3, r4, LSL #2                                  6423
+                add r10, r3, r5                                     6424
+#481           
+                ldr r2, [pc, #504]                                  6429
+                str [r2, r12, #0]                                   6432
+                str [r12, r3, #16]                                  6438
+                add r3, r3, #1                                      6441
+#482           
+                ldr r2, [pc, #504]                                  6429
+                str [r2, r12, #0]                                   6432
+                str [r12, r5, #12]                                  6434
+                add r5, r5, r3                                      6443
+#483           
+                ldr r2, [pc, #504]                                  6429
+                str [r2, r12, #0]                                   6432
+                str [r12, r4, #8]                                   6435
+                movne r3, r4                                        6448
+                add r3, r3, #1                                      6450
+#484           
+                ldr2_uop r6, [sp, #8]                               6410
+                str [r6, r12, lr]                                   6444
+                movne r2, r12                                       6447
+                add r2, r2, #4                                      6453
+#485           
+                ldr r5, [r8, #48]                                   6261
+                mov r7, r5                                          6263
+                add r7, r7, #4                                      6456
+#486           
+                cmps lr, #12                                        6455
+                add lr, lr, #4                                      6458
+#487           
+                ldr2_uop r6, [sp, #8]                               6410
+                str [r6, r12, lr]                                   6444
+                add r12, r12, r10                                   6459
+#488           
+                str [r12, r12, r9]                                  6461
+                str [r12, r3, #16]                                  6481
+                add r3, r3, #1                                      6484
+#489           
+                str [r12, r12, r9]                                  6461
+                str [r12, r5, #12]                                  6477
+                add r5, r5, r3                                      6486
+#490           
+                str [r12, r12, r9]                                  6461
+                str [r12, r4, #8]                                   6478
+                movne r3, r4                                        6491
+                add r3, r3, #1                                      6493
+#491           
+                ldr2_uop r6, [sp, #8]                               6410
+                str [r6, r12, lr]                                   6487
+                movne r2, r12                                       6490
+                add r2, r2, #4                                      6496
+#492           
+                add r7, r7, #4                                      6499
+#493           
+                cmps lr, #12                                        6498
+                add lr, lr, #4                                      6501
+#494           
+                ldr2_uop r6, [sp, #8]                               6410
+                str [r6, r12, lr]                                   6487
+                add r12, r12, r10                                   6502
+#495           
+                str [r12, r12, r9]                                  6504
+                str [r12, r3, #16]                                  6511
+                add r3, r3, #1                                      6514
+#496           
+                str [r12, r12, r9]                                  6504
+                str [r12, r5, #12]                                  6507
+                add r5, r5, r3                                      6516
+#497           
+                str [r12, r12, r9]                                  6504
+                str [r12, r4, #8]                                   6508
+                movne r3, r4                                        6521
+                add r3, r3, #1                                      6523
+#498           
+                ldr2_uop r6, [sp, #8]                               6410
+                str [r6, r12, lr]                                   6517
+                movne r2, r12                                       6520
+                add r2, r2, #4                                      6526
+#499           
+                add r7, r7, #4                                      6529
+#500           
+                cmps lr, #12                                        6528
+                add lr, lr, #4                                      6531
+#501           
+                ldr2_uop r6, [sp, #8]                               6410
+                str [r6, r12, lr]                                   6517
+                add r12, r12, r10                                   6532
+#502           
+                str [r12, r12, r9]                                  6534
+                str [r12, r3, #16]                                  6541
+                add r3, r3, #1                                      6544
+#503           
+                str [r12, r12, r9]                                  6534
+                str [r12, r5, #12]                                  6537
+                add r5, r5, r3                                      6546
+#504           
+                str [r12, r12, r9]                                  6534
+                str [r12, r4, #8]                                   6538
+                movne r3, r4                                        6551
+                add r3, r3, #1                                      6553
+#505           
+                ldr2_uop r6, [sp, #8]                               6410
+                str [r6, r12, lr]                                   6547
+                movne r2, r12                                       6550
+                add r2, r2, #4                                      6556
+#506           
+                add r7, r7, #4                                      6559
+#507           
+                ldr fp, [pc, #3244]                                 6176
+                sub sp, fp, #40                                     6637
+#508           
+                addi_uop r35, sp, #0                                6638
+#509           
+                ldr2_uop sp, [r35, #32]                             6643
+                subi_uop sp, sp, #24                                6652
+#510           
+                ldr r0, [pc, #644]                                  6644
+                bic r1, r0, #3                                      6655
+                addi_uop r1, r1, #4                                 6657
+#511           
+                ldr r0, [pc, #644]                                  6644
+                ands r3, r0, #3                                     6658
+#512           
+                rsb r0, r3, #0                                      6659
+                addne r0, r0, #4                                    6665
+#513           
+                addi_uopne r1, r1, #4                               6667
+#514           
+                addne r0, r0, #4                                    6735
+#515           
+                addi_uopne r1, r1, #4                               6737
+#516           
+                addne r0, r0, #4                                    6766
+#517           
+                addi_uopne r1, r1, #4                               6768
+#518           
+                addne r0, r0, #1                                    6771
+#519           
+                addne r0, r0, #1                                    6773
+#520           
+                addne r0, r0, #1                                    6775
+#521           
+                cmps r12, #0                                        6782
+                ldrb r3, [r5, #1]                                   6784
+                orr r3, r12, r3, LSL #8                             6788
+#522           
+                sub r7, r0, #2                                      6790
+#523           
+                ldr r0, [pc, #644]                                  6644
+                mov r5, r0                                          6653
+                add r8, r5, #2                                      6791
+#524           
+                addi_uop sp, sp, #24                                6797
+#525           
+                subi_uop sp, sp, #24                                6815
+#526           
+                ldr r0, [pc, #628]                                  6802
+                bic r1, r0, #3                                      6818
+                addi_uop r1, r1, #4                                 6820
+#527           
+                ldr r0, [pc, #628]                                  6802
+                ands r3, r0, #3                                     6821
+#528           
+                rsb r0, r3, #0                                      6822
+                addne r0, r0, #4                                    6828
+#529           
+                addi_uopne r1, r1, #4                               6830
+#530           
+                addne r0, r0, #4                                    6858
+#531           
+                addi_uopne r1, r1, #4                               6860
+#532           
+                addne r0, r0, #4                                    6888
+#533           
+                addi_uopne r1, r1, #4                               6890
+#534           
+                addne r0, r0, #1                                    6893
+#535           
+                addne r0, r0, #1                                    6895
+#536           
+                addne r0, r0, #1                                    6897
+#537           
+                cmps r12, #0                                        6904
+                ldrb r3, [r5, #1]                                   6906
+                orr r3, r12, r3, LSL #8                             6910
+#538           
+                sub r7, r0, #2                                      6912
+#539           
+                ldr r0, [pc, #628]                                  6802
+                mov r5, r0                                          6816
+                add r8, r5, #2                                      6913
+#540           
+                addi_uop sp, sp, #24                                6919
+#541           
+                ldrb r3, [r2, #0]                                   6925
+                subs r3, r3, #0                                     6927
+#542           
+                subi_uop sp, sp, #24                                6941
+#543           
+                ldr r0, [pc, #596]                                  6924
+                bic r1, r0, #3                                      6944
+                addi_uop r1, r1, #4                                 6946
+#544           
+                ldr r0, [pc, #596]                                  6924
+                ands r3, r0, #3                                     6947
+#545           
+                rsb r0, r3, #0                                      6948
+                addne r0, r0, #4                                    6954
+#546           
+                addi_uopne r1, r1, #4                               6956
+#547           
+                addne r0, r0, #4                                    6995
+#548           
+                addi_uopne r1, r1, #4                               6997
+#549           
+                addne r0, r0, #4                                    7026
+#550           
+                addi_uopne r1, r1, #4                               7028
+#551           
+                addne r0, r0, #4                                    7153
+#552           
+                addi_uopne r1, r1, #4                               7155
+#553           
+                addne r0, r0, #1                                    7158
+#554           
+                addne r0, r0, #1                                    7160
+#555           
+                addne r0, r0, #1                                    7162
+#556           
+                cmps r12, #0                                        7169
+                ldrb r3, [r5, #1]                                   7171
+                orr r3, r12, r3, LSL #8                             7175
+#557           
+                sub r7, r0, #2                                      7177
+#558           
+                str_uop [sp, r5, #20]                               6936
+                add r8, r5, #2                                      7178
+#559           
+                addi_uop sp, sp, #24                                7184
+#560           
+                subi_uop sp, sp, #24                                7202
+#561           
+                ldr r0, [pc, #564]                                  7189
+                bic r1, r0, #3                                      7205
+                addi_uop r1, r1, #4                                 7207
+#562           
+                ldr r0, [pc, #564]                                  7189
+                ands r3, r0, #3                                     7208
+#563           
+                rsb r0, r3, #0                                      7209
+                addne r0, r0, #4                                    7215
+#564           
+                addi_uopne r1, r1, #4                               7217
+#565           
+                addne r0, r0, #4                                    7223
+#566           
+                addi_uopne r1, r1, #4                               7225
+#567           
+                addne r0, r0, #4                                    7231
+#568           
+                addi_uopne r1, r1, #4                               7233
+#569           
+                addne r0, r0, #4                                    7272
+#570           
+                addi_uopne r1, r1, #4                               7274
+#571           
+                addne r0, r0, #4                                    7303
+#572           
+                addi_uopne r1, r1, #4                               7305
+#573           
+                addne r0, r0, #1                                    7308
+#574           
+                addne r0, r0, #1                                    7310
+#575           
+                addne r0, r0, #1                                    7312
+#576           
+                cmps r12, #0                                        7319
+                ldrb r3, [r5, #1]                                   7321
+                orr r3, r12, r3, LSL #8                             7325
+#577           
+                sub r7, r0, #2                                      7327
+#578           
+                ldr r0, [pc, #564]                                  7189
+                mov r5, r0                                          7203
+                add r8, r5, #2                                      7328
+#579           
+                addi_uop sp, sp, #24                                7334
+#580           
+                ldr r3, [pc, #216]                                  7341
+                sub r2, r3, #9                                      7343
+#581           
+                subi_uop sp, sp, #24                                7418
+#582           
+                ldr r0, [pc, #416]                                  7410
+                bic r1, r0, #3                                      7421
+                addi_uop r1, r1, #4                                 7423
+#583           
+                ldr r0, [pc, #416]                                  7410
+                ands r3, r0, #3                                     7424
+#584           
+                rsb r0, r3, #0                                      7425
+                addne r0, r0, #4                                    7431
+#585           
+                addi_uopne r1, r1, #4                               7433
+#586           
+                addne r0, r0, #4                                    7461
+#587           
+                addi_uopne r1, r1, #4                               7463
+#588           
+                addne r0, r0, #4                                    7501
+#589           
+                addi_uopne r1, r1, #4                               7503
+#590           
+                addne r0, r0, #4                                    7532
+#591           
+                addi_uopne r1, r1, #4                               7534
+#592           
+                addne r0, r0, #4                                    7540
+#593           
+                addi_uopne r1, r1, #4                               7542
+#594           
+                addne r0, r0, #1                                    7657
+#595           
+                addne r0, r0, #1                                    7659
+#596           
+                addne r0, r0, #1                                    7661
+#597           
+                cmps r12, #0                                        7668
+                ldrb r3, [r5, #1]                                   7670
+                orr r3, r12, r3, LSL #8                             7674
+#598           
+                sub r7, r0, #2                                      7676
+#599           
+                ldr r0, [pc, #416]                                  7410
+                mov r5, r0                                          7419
+                add r8, r5, #2                                      7677
+#600           
+                addi_uop sp, sp, #24                                7683
+#601           
+                mov r0, #0                                          7679
+                subs r5, r0, #0                                     7685
+#602           
+                cmps r0, #0                                         7719
+                addne r2, r0, #32                                   7729
+#603           
+                movne r1, #0                                        7730
+                add r1, r1, #1                                      7755
+#604           
+                addi_uop r2, r2, #32                                7768
+#605           
+                cmps r12, #0                                        7723
+                cmps r1, r12                                        7756
+                add r1, r1, #1                                      7771
+#606           
+                addi_uop r2, r2, #32                                7776
+#607           
+                cmps r12, #0                                        7723
+                cmps r1, r12                                        7772
+                add r1, r1, #1                                      7779
+#608           
+                addi_uop r2, r2, #32                                7784
+#609           
+                cmps r12, #0                                        7723
+                cmps r1, r12                                        7780
+                add r1, r1, #1                                      7787
+#610           
+                addi_uop r2, r2, #32                                7792
+#611           
+                cmps r12, #0                                        7723
+                cmps r1, r12                                        7788
+                add r1, r1, #1                                      7795
+#612           
+                addi_uop r2, r2, #32                                7800
+#613           
+                add sp, sp, #12                                     7891
+#614           
+                addi_uop sp, sp, #28                                7896
+#615           
+                addi_uop sp, sp, #16                                7905
+#616           
+                subi_uop sp, sp, #12                                7910
+#617           
+                ldr2_uop r4, [sp, #0]                               7892
+                mov r1, r4                                          7901
+                subs r5, r1, #0                                     7911
+#618           
+                sub sp, sp, #4                                      7912
+#619           
+                subi_uop sp, sp, #12                                7929
+#620           
+                mov r1, #47                                         7918
+                ands r5, r1, #255                                   7930
+#621           
+                sub sp, sp, #4                                      7931
+#622           
+                subi_uop sp, sp, #8                                 7950
+#623           
+                mov r1, r5                                          7936
+                and r4, r1, #255                                    7951
+#624           
+                tsts r0, #3                                         7947
+                add r0, r0, #1                                      7998
+#625           
+                tsts r0, #3                                         7999
+                add r0, r0, #1                                      8006
+#626           
+                orr r3, r4, r4, LSL #8                              8108
+#627           
+                orr r5, r3, r3, LSL #16                             8110
+#628           
+                ldr r1, [r12, #0]                                   8111
+                eor r3, r5, r1                                      8113
+#629           
+                ldr r1, [r12, #0]                                   8111
+                add r0, r1, r0                                      8115
+#630           
+                ldr r2, [pc, #180]                                  8112
+                add r2, r3, r2                                      8116
+#631           
+                mvn r3, r3                                          8118
+                eor r3, r3, r2                                      8119
+#632           
+                ldr r1, [r12, #0]                                   8111
+                mvn r1, r1                                          8117
+                eor r1, r1, r0                                      8120
+#633           
+                orr r3, r3, r1                                      8122
+#634           
+                ldr r2, [pc, #148]                                  8121
+                and r2, r3, r2                                      8123
+#635           
+                tsts r0, #3                                         8007
+                mov r12, r0                                         8109
+                add r0, r12, #1                                     8125
+#636           
+                tsts r0, #3                                         8007
+                mov r12, r0                                         8109
+                add r1, r12, #2                                     8128
+#637           
+                tsts r0, #3                                         8007
+                mov r12, r0                                         8109
+                add r2, r12, #3                                     8130
+#638           
+                addi_uop sp, sp, #8                                 8184
+#639           
+                cmps r0, #0                                         8186
+                add r3, r0, #1                                      8187
+#640           
+                subi_uop sp, sp, #8                                 8196
+#641           
+                str_uop [sp, r5, #4]                                7949
+                mov r1, r5                                          8191
+                and r4, r1, #255                                    8197
+#642           
+                orr r3, r4, r4, LSL #8                              8226
+#643           
+                orr r5, r3, r3, LSL #16                             8228
+#644           
+                ldr r1, [r12, #0]                                   8229
+                eor r3, r5, r1                                      8231
+#645           
+                ldr r1, [r12, #0]                                   8229
+                tsts r0, #3                                         8007
+                mov r12, r0                                         8109
+                str [r12, r0, #0]                                   7338
+                add r0, r1, r0                                      8233
+#646           
+                ldr r2, [pc, #180]                                  8230
+                add r2, r3, r2                                      8234
+#647           
+                mvn r3, r3                                          8236
+                eor r3, r3, r2                                      8237
+#648           
+                ldr r1, [r12, #0]                                   8229
+                mvn r1, r1                                          8235
+                eor r1, r1, r0                                      8238
+#649           
+                orr r3, r3, r1                                      8240
+#650           
+                ldr r2, [pc, #148]                                  8239
+                and r2, r3, r2                                      8241
+#651           
+                tsts r0, #3                                         8193
+                mov r12, r0                                         8227
+                add r0, r12, #1                                     8243
+#652           
+                tsts r0, #3                                         8193
+                mov r12, r0                                         8227
+                add r12, r12, #4                                    8278
+#653           
+                ldr r1, [r12, #0]                                   8286
+                eor r3, r5, r1                                      8288
+#654           
+                ldr r1, [r12, #0]                                   8286
+                add r0, r1, r0                                      8290
+#655           
+                ldr r2, [pc, #180]                                  8287
+                add r2, r3, r2                                      8291
+#656           
+                mvn r3, r3                                          8293
+                eor r3, r3, r2                                      8294
+#657           
+                ldr r1, [r12, #0]                                   8286
+                mvn r1, r1                                          8292
+                eor r1, r1, r0                                      8295
+#658           
+                orr r3, r3, r1                                      8297
+#659           
+                ldr r2, [pc, #148]                                  8296
+                and r2, r3, r2                                      8298
+#660           
+                add r0, r12, #1                                     8300
+#661           
+                add r12, r12, #4                                    8302
+#662           
+                ldr r1, [r12, #0]                                   8304
+                eor r3, r5, r1                                      8306
+#663           
+                ldr r1, [r12, #0]                                   8304
+                add r0, r1, r0                                      8308
+#664           
+                ldr r2, [pc, #180]                                  8305
+                add r2, r3, r2                                      8309
+#665           
+                mvn r3, r3                                          8311
+                eor r3, r3, r2                                      8312
+#666           
+                ldr r1, [r12, #0]                                   8304
+                mvn r1, r1                                          8310
+                eor r1, r1, r0                                      8313
+#667           
+                orr r3, r3, r1                                      8315
+#668           
+                ldr r2, [pc, #148]                                  8314
+                and r2, r3, r2                                      8316
+#669           
+                add r0, r12, #1                                     8318
+#670           
+                add r1, r12, #2                                     8356
+#671           
+                add r2, r12, #3                                     8358
+#672           
+                addi_uop sp, sp, #8                                 8392
+#673           
+                cmps r0, #0                                         8394
+                add r3, r0, #1                                      8395
+#674           
+                subi_uop sp, sp, #8                                 8404
+#675           
+                mov r1, r5                                          8399
+                and r4, r1, #255                                    8405
+#676           
+                tsts r0, #3                                         8401
+                add r0, r0, #1                                      8439
+#677           
+                orr r3, r4, r4, LSL #8                              8442
+#678           
+                orr r5, r3, r3, LSL #16                             8444
+#679           
+                ldr r1, [r12, #0]                                   8445
+                eor r3, r5, r1                                      8447
+#680           
+                ldr r1, [r12, #0]                                   8445
+                add r0, r1, r0                                      8449
+#681           
+                ldr r2, [pc, #180]                                  8446
+                add r2, r3, r2                                      8450
+#682           
+                mvn r3, r3                                          8452
+                eor r3, r3, r2                                      8453
+#683           
+                ldr r1, [r12, #0]                                   8445
+                mvn r1, r1                                          8451
+                eor r1, r1, r0                                      8454
+#684           
+                orr r3, r3, r1                                      8456
+#685           
+                ldr r2, [pc, #148]                                  8455
+                and r2, r3, r2                                      8457
+#686           
+                tsts r0, #3                                         8440
+                mov r12, r0                                         8443
+                add r0, r12, #1                                     8459
+#687           
+                tsts r0, #3                                         8440
+                mov r12, r0                                         8443
+                add r12, r12, #4                                    8495
+#688           
+                ldr r1, [r12, #0]                                   8497
+                eor r3, r5, r1                                      8499
+#689           
+                ldr r1, [r12, #0]                                   8497
+                add r0, r1, r0                                      8501
+#690           
+                ldr r2, [pc, #180]                                  8498
+                add r2, r3, r2                                      8502
+#691           
+                mvn r3, r3                                          8504
+                eor r3, r3, r2                                      8505
+#692           
+                ldr r1, [r12, #0]                                   8497
+                mvn r1, r1                                          8503
+                eor r1, r1, r0                                      8506
+#693           
+                orr r3, r3, r1                                      8508
+#694           
+                ldr r2, [pc, #148]                                  8507
+                and r2, r3, r2                                      8509
+#695           
+                add r0, r12, #1                                     8511
+#696           
+                add r1, r12, #2                                     8514
+#697           
+                add r2, r12, #3                                     8516
+#698           
+                addi_uop sp, sp, #8                                 8549
+#699           
+                cmps r0, #0                                         8551
+                add r3, r0, #1                                      8552
+#700           
+                subi_uop sp, sp, #8                                 8561
+#701           
+                mov r1, r5                                          8556
+                and r4, r1, #255                                    8562
+#702           
+                tsts r0, #3                                         8558
+                add r0, r0, #1                                      8594
+#703           
+                tsts r0, #3                                         8595
+                add r0, r0, #1                                      8631
+#704           
+                tsts r0, #3                                         8632
+                add r0, r0, #1                                      8639
+#705           
+                orr r3, r4, r4, LSL #8                              8732
+#706           
+                orr r5, r3, r3, LSL #16                             8734
+#707           
+                ldr r1, [r12, #0]                                   8735
+                eor r3, r5, r1                                      8737
+#708           
+                ldr r1, [r12, #0]                                   8735
+                add r0, r1, r0                                      8739
+#709           
+                ldr r2, [pc, #180]                                  8736
+                add r2, r3, r2                                      8740
+#710           
+                mvn r3, r3                                          8742
+                eor r3, r3, r2                                      8743
+#711           
+                ldr r1, [r12, #0]                                   8735
+                mvn r1, r1                                          8741
+                eor r1, r1, r0                                      8744
+#712           
+                orr r3, r3, r1                                      8746
+#713           
+                ldr r2, [pc, #148]                                  8745
+                and r2, r3, r2                                      8747
+#714           
+                tsts r0, #3                                         8640
+                mov r12, r0                                         8733
+                add r0, r12, #1                                     8749
+#715           
+                tsts r0, #3                                         8640
+                mov r12, r0                                         8733
+                add r1, r12, #2                                     8752
+#716           
+                tsts r0, #3                                         8640
+                mov r12, r0                                         8733
+                add r2, r12, #3                                     8754
+#717           
+                addi_uop sp, sp, #8                                 8759
+#718           
+                cmps r0, #0                                         8761
+                add r3, r0, #1                                      8762
+#719           
+                subi_uop sp, sp, #8                                 8771
+#720           
+                mov r1, r5                                          8766
+                and r4, r1, #255                                    8772
+#721           
+                tsts r0, #3                                         8768
+                add r0, r0, #1                                      8884
+#722           
+                tsts r0, #3                                         8885
+                add r0, r0, #1                                      8892
+#723           
+                tsts r0, #3                                         8893
+                add r0, r0, #1                                      8900
+#724           
+                orr r3, r4, r4, LSL #8                              8993
+#725           
+                orr r5, r3, r3, LSL #16                             8995
+#726           
+                ldr r1, [r12, #0]                                   8996
+                eor r3, r5, r1                                      8998
+#727           
+                ldr r1, [r12, #0]                                   8996
+                add r0, r1, r0                                      9000
+#728           
+                ldr r2, [pc, #180]                                  8997
+                add r2, r3, r2                                      9001
+#729           
+                mvn r3, r3                                          9003
+                eor r3, r3, r2                                      9004
+#730           
+                ldr r1, [r12, #0]                                   8996
+                mvn r1, r1                                          9002
+                eor r1, r1, r0                                      9005
+#731           
+                orr r3, r3, r1                                      9007
+#732           
+                ldr r2, [pc, #148]                                  9006
+                and r2, r3, r2                                      9008
+#733           
+                tsts r0, #3                                         8901
+                mov r12, r0                                         8994
+                add r0, r12, #1                                     9010
+#734           
+                tsts r0, #3                                         8901
+                mov r12, r0                                         8994
+                add r1, r12, #2                                     9013
+#735           
+                tsts r0, #3                                         8901
+                mov r12, r0                                         8994
+                add r2, r12, #3                                     9015
+#736           
+                addi_uop sp, sp, #8                                 9020
+#737           
+                cmps r0, #0                                         9022
+                add r3, r0, #1                                      9023
+#738           
+                subi_uop sp, sp, #8                                 9032
+#739           
+                mov r1, r5                                          9027
+                and r4, r1, #255                                    9033
+#740           
+                tsts r0, #3                                         9029
+                add r0, r0, #1                                      9067
+#741           
+                tsts r0, #3                                         9068
+                add r0, r0, #1                                      9075
+#742           
+                tsts r0, #3                                         9076
+                add r0, r0, #1                                      9083
+#743           
+                orr r3, r4, r4, LSL #8                              9176
+#744           
+                orr r5, r3, r3, LSL #16                             9178
+#745           
+                ldr r1, [r12, #0]                                   9179
+                eor r3, r5, r1                                      9181
+#746           
+                ldr r1, [r12, #0]                                   9179
+                add r0, r1, r0                                      9183
+#747           
+                ldr r2, [pc, #180]                                  9180
+                add r2, r3, r2                                      9184
+#748           
+                mvn r3, r3                                          9186
+                eor r3, r3, r2                                      9187
+#749           
+                ldr r1, [r12, #0]                                   9179
+                mvn r1, r1                                          9185
+                eor r1, r1, r0                                      9188
+#750           
+                orr r3, r3, r1                                      9190
+#751           
+                ldr r2, [pc, #148]                                  9189
+                and r2, r3, r2                                      9191
+#752           
+                tsts r0, #3                                         9084
+                mov r12, r0                                         9177
+                add r0, r12, #1                                     9193
+#753           
+                tsts r0, #3                                         9084
+                mov r12, r0                                         9177
+                add r1, r12, #2                                     9196
+#754           
+                tsts r0, #3                                         9084
+                mov r12, r0                                         9177
+                add r2, r12, #3                                     9198
+#755           
+                addi_uop sp, sp, #8                                 9250
+#756           
+                cmps r0, #0                                         9252
+                add r3, r0, #1                                      9253
+#757           
+                subi_uop sp, sp, #8                                 9262
+#758           
+                mov r1, r5                                          9257
+                and r4, r1, #255                                    9263
+#759           
+                tsts r0, #3                                         9259
+                add r0, r0, #1                                      9297
+#760           
+                orr r3, r4, r4, LSL #8                              9383
+#761           
+                orr r5, r3, r3, LSL #16                             9385
+#762           
+                ldr r1, [r12, #0]                                   9386
+                eor r3, r5, r1                                      9388
+#763           
+                ldr r1, [r12, #0]                                   9386
+                add r0, r1, r0                                      9390
+#764           
+                ldr r2, [pc, #180]                                  9387
+                add r2, r3, r2                                      9391
+#765           
+                mvn r3, r3                                          9393
+                eor r3, r3, r2                                      9394
+#766           
+                ldr r1, [r12, #0]                                   9386
+                mvn r1, r1                                          9392
+                eor r1, r1, r0                                      9395
+#767           
+                orr r3, r3, r1                                      9397
+#768           
+                ldr r2, [pc, #148]                                  9396
+                and r2, r3, r2                                      9398
+#769           
+                tsts r0, #3                                         9298
+                mov r12, r0                                         9384
+                add r0, r12, #1                                     9400
+#770           
+                tsts r0, #3                                         9298
+                mov r12, r0                                         9384
+                add r12, r12, #4                                    9454
+#771           
+                ldr r1, [r12, #0]                                   9456
+                eor r3, r5, r1                                      9458
+#772           
+                ldr r1, [r12, #0]                                   9456
+                add r0, r1, r0                                      9460
+#773           
+                ldr r2, [pc, #180]                                  9457
+                add r2, r3, r2                                      9461
+#774           
+                mvn r3, r3                                          9463
+                eor r3, r3, r2                                      9464
+#775           
+                ldr r1, [r12, #0]                                   9456
+                mvn r1, r1                                          9462
+                eor r1, r1, r0                                      9465
+#776           
+                orr r3, r3, r1                                      9467
+#777           
+                ldr r2, [pc, #148]                                  9466
+                and r2, r3, r2                                      9468
+#778           
+                add r0, r12, #1                                     9470
+#779           
+                add r1, r12, #2                                     9473
+#780           
+                add r2, r12, #3                                     9475
+#781           
+                addi_uop sp, sp, #8                                 9509
+#782           
+                cmps r0, #0                                         9511
+                add r3, r0, #1                                      9512
+#783           
+                add sp, sp, #4                                      9528
+#784           
+                addi_uop sp, sp, #12                                9531
+#785           
+                cmps r0, #0                                         9533
+                addne r2, r0, #1                                    9534
+#786           
+                add sp, sp, #4                                      9542
+#787           
+                addi_uop sp, sp, #12                                9545
+#788           
+                subi_uop sp, sp, #16                                9559
+#789           
+                subi_uop sp, sp, #20                                9584
+#790           
+                sub sp, sp, #4                                      9586
+#791           
+                mvn r3, #61440                                      9593
+                sub pc, r3, #63                                     9595
+#792           
+                ldrex r3, [r2, #0]                                  9598
+                subs r3, r3, r0                                     9599
+#793           
+                cmps r0, #0                                         9705
+                add r5, r0, #8                                      9709
+#794           
+                ldr2_uop r3, [r0, #0]                               9723
+                ldr r1, [r12, #4]                                   9667
+                adds r3, r3, r1                                     9725
+#795           
+                mvn r3, #61440                                      9739
+                sub pc, r3, #63                                     9741
+#796           
+                ldrex r3, [r2, #0]                                  9771
+                ldr r0, [pc, #220]                                  9720
+                subs r3, r3, r0                                     9772
+#797           
+                add sp, sp, #4                                      9835
+#798           
+                addi_uop sp, sp, #20                                9839
+#799           
+                mvn r12, #61440                                     9849
+                sub pc, r12, #95                                    9851
+#800           
+                addi_uop sp, sp, #16                                9870
+#801           
+                subi_uop sp, sp, #28                                9946
+#802           
+                sub sp, sp, #4                                      9949
+#803           
+                subi_uop sp, sp, #4                                 9970
+#804           
+                sub sp, sp, #4                                      9971
+#805           
+                ldr_uop r36, [sp, #16]                              9838
+                uopReg_uop pc, r36                                  9871
+                ldr r3, [pc, #20]                                   9973
+                add r3, pc, r3                                      9975
+#806           
+                add sp, sp, #4                                      9979
+#807           
+                addi_uop sp, sp, #4                                 9981
+#808           
+                subi_uop sp, sp, #4                                10063
+#809           
+                sub sp, sp, #4                                     10065
+#810           
+                add sp, sp, #4                                     10232
+#811           
+                addi_uop sp, sp, #4                                10234
+#812           
+                mov r4, #0                                          9988
+                add r4, r4, #1                                     10299
+#813           
+                add sp, sp, #4                                     10302
+#814           
+                addi_uop sp, sp, #28                               10307
+#815           
+                add r0, sp, #16                                    10340
+#816           
+                mov r12, r0                                        10344
+                addi_uop r12, r12, #40                             10355
+#817           
+                addi_uop r12, r12, #68                             10376
+#818           
+                addi_uop r12, r12, #4                              10379
+#819           
+                mov r12, r0                                        10344
+                str_uop [r12, sp, #32]                             10353
+                subi_uop sp, sp, #8                                10436
+#820           
+                addi_uop sp, sp, #8                                10443
+#821           
+                mvn r0, #61440                                     10448
+                sub pc, r0, #31                                    10449
+#822           
+                mrc r0, tpidruro                                   10488
+                sub r4, r0, #1184                                  10490
+#823           
+                add r3, sp, #16                                    10500
+#824           
+                subi_uop sp, sp, #16                               10519
+#825           
+                str_uop [sp, r12, #12]                             10516
+                sub fp, r12, #4                                    10520
+#826           
+                sub sp, sp, #8                                     10521
+#827           
+                subi_uop sp, sp, #32                               10546
+#828           
+                ldr r0, [pc, #8]                                   10522
+                bic r1, r0, #3                                     10549
+                addi_uop r1, r1, #4                                10551
+#829           
+                ldr r0, [pc, #8]                                   10522
+                ands r3, r0, #3                                    10552
+#830           
+                rsb r0, r3, #0                                     10553
+                addne r0, r0, #4                                   10559
+#831           
+                addi_uopne r1, r1, #4                              10561
+#832           
+                addne r0, r0, #4                                   10640
+#833           
+                addi_uopne r1, r1, #4                              10642
+#834           
+                addne r0, r0, #4                                   10675
+#835           
+                addi_uopne r1, r1, #4                              10677
+#836           
+                addne r0, r0, #4                                   10710
+#837           
+                addi_uopne r1, r1, #4                              10712
+#838           
+                addne r0, r0, #1                                   10715
+#839           
+                addne r0, r0, #1                                   10717
+#840           
+                addne r0, r0, #1                                   10719
+#841           
+                ldr r3, [r5, #0]                                   10723
+                ands r4, r3, #32768                                10724
+#842           
+                mvn r0, #61440                                     10729
+                sub pc, r0, #31                                    10730
+#843           
+                mrc r0, tpidruro                                   10731
+                sub r6, r0, #1184                                  10733
+#844           
+                mvn r3, #61440                                     10743
+                sub pc, r3, #63                                    10745
+#845           
+                ldrex r3, [r2, #0]                                 10757
+                subs r3, r3, r0                                    10758
+#846           
+                ldr r3, [r7, #4]                                   10825
+                add r3, r3, #1                                     10826
+#847           
+                cmps r3, #0                                        10830
+                subeq r3, r3, #1                                   10831
+#848           
+                subi_uop sp, sp, #28                               10914
+#849           
+                mov r10, r0                                        10725
+                mov r2, r10                                        10837
+                subs r7, r2, #0                                    10915
+#850           
+                sub sp, sp, #4                                     10917
+#851           
+                ldr r3, [r6, #0]                                   10921
+                and r3, r3, #2560                                  10923
+#852           
+                subi_uop sp, sp, #16                               10947
+#853           
+                subi_uop sp, sp, #8                                10973
+#854           
+                addi_uopne sp, sp, #8                              10977
+#855           
+                subi_uop sp, sp, #12                               11096
+#856           
+                sub sp, sp, #116                                   11098
+#857           
+                add r1, sp, #8                                     11102
+#858           
+                subi_uop sp, sp, #8                                11129
+#859           
+                addi_uop sp, sp, #8                                11181
+#860           
+                ldr r3, [sp, #24]                                  11212
+                and r3, r3, #61440                                 11213
+#861           
+                ldr r3, [sp, #44]                                  11241
+                bic r3, r3, #4080                                  11243
+                bic r3, r3, #15                                    11244
+                ldr r2, [sp, #40]                                  11240
+                mov r2, r2, LSL #12                                11242
+                orr r3, r3, r2, LSR #20                            11245
+#862           
+                sub r3, r3, #136                                   11246
+#863           
+                ldr r3, [r5, #0]                                   11249
+                orr r3, r3, #512                                   11250
+#864           
+                cmps r3, #0                                        11253
+                movgt r4, r3                                       11254
+                addgt r3, r4, #4080                                11255
+#865           
+                addgt r3, r3, #15                                  11256
+#866           
+                subi_uop sp, sp, #4                                11290
+#867           
+                subi_uop sp, sp, #4                                11293
+#868           
+                addi_uop sp, sp, #4                                11306
+#869           
+                addi_uop sp, sp, #4                                11308
+#870           
+                cmns r0, #1                                        11311
+                mov r1, r0                                         11313
+                ldr r4, [sp] #4                                    11305
+                add r2, r1, r4                                     11314
+#871           
+                subi_uop sp, sp, #20                               11325
+#872           
+                sub sp, sp, #4                                     11327
+#873           
+                ldr r3, [r4, #0]                                   11355
+                bicne r3, r3, #1                                   11369
+                orreq r3, r3, #1                                   11370
+#874           
+                add sp, sp, #4                                     11375
+#875           
+                addi_uop sp, sp, #20                               11379
+#876           
+                add sp, sp, #116                                   11382
+#877           
+                addi_uop sp, sp, #12                               11385
+#878           
+                addi_uopne sp, sp, #8                              11414
+#879           
+                tsts r1, #256                                      11453
+                orr r1, r1, #2048                                  11457
+#880           
+                cmps r5, #0                                        11368
+                str [r5, r1, #0]                                   11461
+                ldr r3, [pc, #272]                                 11473
+                and r3, r1, r3                                     11474
+#881           
+                addi_uop sp, sp, #16                               11593
+#882           
+                subi_uop sp, sp, #8                                11597
+#883           
+                ldr r1, [r5, #16]                                  11587
+                ldr r2, [r5, #20]                                  11588
+                rsb r2, r1, r2                                     11590
+                subs r4, r2, #0                                    11598
+#884           
+                addi_uop sp, sp, #8                                11602
+#885           
+                subi_uop sp, sp, #12                               11720
+#886           
+                str_uop [sp, r1, #8]                               11718
+                subs r2, r1, #1                                    11728
+#887           
+                addi_uop sp, sp, #12                               11766
+#888           
+                ldr2_uop r1, [sp, #0]                              11764
+                ldr r3, [r6, #28]                                  11673
+                sub r1, r1, r3                                     11768
+#889           
+                ldr2_uop r4, [sp, #0]                              11601
+                subs r5, r4, r1                                    11770
+#890           
+                ldr r0, [pc, #8]                                   10522
+                mov r9, r0                                         10547
+                mov r1, r9                                         10836
+                mov r10, r1                                        10922
+                add r1, r10, r5                                    11806
+#891           
+                subi_uop sp, sp, #24                               11822
+#892           
+                cmps r4, #0                                        11772
+                mov r2, r4                                         11805
+                subs r8, r2, #0                                    11823
+#893           
+                addi_uopeq sp, sp, #24                             11829
+#894           
+                subi_uop sp, sp, #16                               11879
+#895           
+                cmns r6, #1                                        11910
+                and r4, r6, #255                                   11916
+#896           
+                ldr r3, [r5, #32]                                  11913
+                cmps r2, r3                                        11914
+                addi_uop r2, r2, #1                                11918
+#897           
+                moveq r3, #1                                       11925
+                ldr r1, [r5, #0]                                   11919
+                ands r3, r3, r1, LSR #9                            11926
+#898           
+                addi_uop sp, sp, #16                               11958
+#899           
+                ldr2_uop r6, [sp, #8]                              11592
+                mov r0, r6                                         11807
+                mov r7, r0                                         11824
+                mov r0, r7                                         11867
+                mov r5, r0                                         11882
+                add r5, r5, #1                                     11995
+#900           
+                ldr2_uop r6, [sp, #8]                              11957
+                sub r6, r6, #1                                     11996
+#901           
+                subi_uop sp, sp, #16                               12045
+#902           
+                cmns r6, #1                                        12056
+                and r4, r6, #255                                   12062
+#903           
+                ldr r3, [r5, #32]                                  12059
+                cmps r2, r3                                        12060
+                addi_uop r2, r2, #1                                12064
+#904           
+                moveq r3, #1                                       12071
+                ldr r1, [r5, #0]                                   12065
+                ands r3, r3, r1, LSR #9                            12072
+#905           
+                addi_uop sp, sp, #16                               12077
+#906           
+                ldr2_uop r6, [sp, #8]                              11592
+                mov r0, r6                                         11807
+                mov r7, r0                                         11824
+                mov r0, r7                                         12017
+                mov r5, r0                                         12048
+                add r5, r5, #1                                     12123
+#907           
+                ldr2_uop r6, [sp, #8]                              12076
+                sub r6, r6, #1                                     12124
+#908           
+                subi_uop sp, sp, #16                               12161
+#909           
+                cmns r6, #1                                        12172
+                and r4, r6, #255                                   12178
+#910           
+                ldr r3, [r5, #32]                                  12175
+                cmps r2, r3                                        12176
+                addi_uop r2, r2, #1                                12180
+#911           
+                moveq r3, #1                                       12187
+                ldr r1, [r5, #0]                                   12181
+                ands r3, r3, r1, LSR #9                            12188
+#912           
+                addi_uop sp, sp, #16                               12193
+#913           
+                ldr2_uop r6, [sp, #8]                              11592
+                mov r0, r6                                         11807
+                mov r7, r0                                         11824
+                mov r0, r7                                         12133
+                mov r5, r0                                         12164
+                add r5, r5, #1                                     12240
+#914           
+                ldr2_uop r6, [sp, #8]                              12192
+                sub r6, r6, #1                                     12241
+#915           
+                subi_uop sp, sp, #16                               12278
+#916           
+                cmns r6, #1                                        12289
+                and r4, r6, #255                                   12295
+#917           
+                ldr r3, [r5, #32]                                  12292
+                cmps r2, r3                                        12293
+                addi_uop r2, r2, #1                                12297
+#918           
+                moveq r3, #1                                       12304
+                ldr r1, [r5, #0]                                   12298
+                ands r3, r3, r1, LSR #9                            12305
+#919           
+                addi_uop sp, sp, #16                               12310
+#920           
+                ldr2_uop r6, [sp, #8]                              11592
+                mov r0, r6                                         11807
+                mov r7, r0                                         11824
+                mov r0, r7                                         12250
+                mov r5, r0                                         12281
+                add r5, r5, #1                                     12352
+#921           
+                ldr2_uop r6, [sp, #8]                              12309
+                sub r6, r6, #1                                     12353
+#922           
+                subi_uop sp, sp, #16                               12370
+#923           
+                cmns r6, #1                                        12381
+                and r4, r6, #255                                   12387
+#924           
+                ldr r3, [r5, #32]                                  12384
+                cmps r2, r3                                        12385
+                addi_uop r2, r2, #1                                12389
+#925           
+                moveq r3, #1                                       12396
+                ldr r1, [r5, #0]                                   12390
+                ands r3, r3, r1, LSR #9                            12397
+#926           
+                addi_uop sp, sp, #16                               12402
+#927           
+                ldr2_uop r6, [sp, #8]                              11592
+                mov r0, r6                                         11807
+                mov r7, r0                                         11824
+                mov r0, r7                                         12362
+                mov r5, r0                                         12373
+                add r5, r5, #1                                     12424
+#928           
+                ldr2_uop r6, [sp, #8]                              12401
+                sub r6, r6, #1                                     12425
+#929           
+                subi_uop sp, sp, #16                               12442
+#930           
+                cmns r6, #1                                        12453
+                and r4, r6, #255                                   12459
+#931           
+                ldr r3, [r5, #32]                                  12456
+                cmps r2, r3                                        12457
+                addi_uop r2, r2, #1                                12461
+#932           
+                moveq r3, #1                                       12468
+                ldr r1, [r5, #0]                                   12462
+                ands r3, r3, r1, LSR #9                            12469
+#933           
+                addi_uop sp, sp, #16                               12474
+#934           
+                ldr2_uop r6, [sp, #8]                              11592
+                mov r0, r6                                         11807
+                mov r7, r0                                         11824
+                mov r0, r7                                         12434
+                mov r5, r0                                         12445
+                add r5, r5, #1                                     12505
+#935           
+                ldr2_uop r6, [sp, #8]                              12473
+                sub r6, r6, #1                                     12506
+#936           
+                subi_uop sp, sp, #16                               12523
+#937           
+                cmns r6, #1                                        12534
+                and r4, r6, #255                                   12540
+#938           
+                ldr r3, [r5, #32]                                  12537
+                cmps r2, r3                                        12538
+                addi_uop r2, r2, #1                                12542
+#939           
+                moveq r3, #1                                       12549
+                ldr r1, [r5, #0]                                   12543
+                ands r3, r3, r1, LSR #9                            12550
+#940           
+                addi_uop sp, sp, #16                               12555
+#941           
+                ldr2_uop r6, [sp, #8]                              11592
+                mov r0, r6                                         11807
+                mov r7, r0                                         11824
+                mov r0, r7                                         12515
+                mov r5, r0                                         12526
+                add r5, r5, #1                                     12597
+#942           
+                ldr2_uop r6, [sp, #8]                              12554
+                sub r6, r6, #1                                     12598
+#943           
+                subi_uop sp, sp, #16                               12615
+#944           
+                cmns r6, #1                                        12626
+                and r4, r6, #255                                   12632
+#945           
+                ldr r3, [r5, #32]                                  12629
+                cmps r2, r3                                        12630
+                addi_uop r2, r2, #1                                12634
+#946           
+                moveq r3, #1                                       12641
+                ldr r1, [r5, #0]                                   12635
+                ands r3, r3, r1, LSR #9                            12642
+#947           
+                addi_uop sp, sp, #16                               12647
+#948           
+                ldr2_uop r6, [sp, #8]                              11592
+                mov r0, r6                                         11807
+                mov r7, r0                                         11824
+                mov r0, r7                                         12607
+                mov r5, r0                                         12618
+                add r5, r5, #1                                     12682
+#949           
+                ldr2_uop r6, [sp, #8]                              12646
+                sub r6, r6, #1                                     12683
+#950           
+                subi_uop sp, sp, #16                               12700
+#951           
+                cmns r6, #1                                        12711
+                and r4, r6, #255                                   12717
+#952           
+                ldr r3, [r5, #32]                                  12714
+                cmps r2, r3                                        12715
+                addi_uop r2, r2, #1                                12719
+#953           
+                moveq r3, #1                                       12726
+                ldr r1, [r5, #0]                                   12720
+                ands r3, r3, r1, LSR #9                            12727
+#954           
+                addi_uop sp, sp, #16                               12732
+#955           
+                ldr2_uop r6, [sp, #8]                              11592
+                mov r0, r6                                         11807
+                mov r7, r0                                         11824
+                mov r0, r7                                         12692
+                mov r5, r0                                         12703
+                add r5, r5, #1                                     12781
+#956           
+                ldr2_uop r6, [sp, #8]                              12731
+                sub r6, r6, #1                                     12782
+#957           
+                subi_uop sp, sp, #16                               12799
+#958           
+                cmns r6, #1                                        12810
+                and r4, r6, #255                                   12816
+#959           
+                ldr r3, [r5, #32]                                  12813
+                cmps r2, r3                                        12814
+                addi_uop r2, r2, #1                                12818
+#960           
+                moveq r3, #1                                       12825
+                ldr r1, [r5, #0]                                   12819
+                ands r3, r3, r1, LSR #9                            12826
+#961           
+                addi_uop sp, sp, #16                               12831
+#962           
+                ldr2_uop r6, [sp, #8]                              11592
+                mov r0, r6                                         11807
+                mov r7, r0                                         11824
+                mov r0, r7                                         12791
+                mov r5, r0                                         12802
+                add r5, r5, #1                                     12858
+#963           
+                ldr2_uop r6, [sp, #8]                              12830
+                sub r6, r6, #1                                     12859
+#964           
+                subi_uop sp, sp, #16                               12876
+#965           
+                cmns r6, #1                                        12887
+                and r4, r6, #255                                   12893
+#966           
+                ldr r3, [r5, #32]                                  12890
+                cmps r2, r3                                        12891
+                addi_uop r2, r2, #1                                12895
+#967           
+                moveq r3, #1                                       12902
+                ldr r1, [r5, #0]                                   12896
+                ands r3, r3, r1, LSR #9                            12903
+#968           
+                addi_uop sp, sp, #16                               12908
+#969           
+                ldr2_uop r6, [sp, #8]                              11592
+                mov r0, r6                                         11807
+                mov r7, r0                                         11824
+                mov r0, r7                                         12868
+                mov r5, r0                                         12879
+                add r5, r5, #1                                     12956
+#970           
+                ldr2_uop r6, [sp, #8]                              12907
+                sub r6, r6, #1                                     12957
+#971           
+                subi_uop sp, sp, #16                               12974
+#972           
+                cmns r6, #1                                        13005
+                and r4, r6, #255                                   13011
+#973           
+                ldr r3, [r5, #32]                                  13008
+                cmps r2, r3                                        13009
+                addi_uop r2, r2, #1                                13013
+#974           
+                moveq r3, #1                                       13020
+                ldr r1, [r5, #0]                                   13014
+                ands r3, r3, r1, LSR #9                            13021
+#975           
+                addi_uop sp, sp, #16                               13026
+#976           
+                ldr2_uop r6, [sp, #8]                              11592
+                mov r0, r6                                         11807
+                mov r7, r0                                         11824
+                mov r0, r7                                         12966
+                mov r5, r0                                         12977
+                add r5, r5, #1                                     13032
+#977           
+                ldr2_uop r6, [sp, #8]                              13025
+                sub r6, r6, #1                                     13033
+#978           
+                addi_uop sp, sp, #24                               13067
+#979           
+                add sp, sp, #4                                     13087
+#980           
+                addi_uop sp, sp, #28                               13092
+#981           
+                ldr r3, [r0, #24]                                  13137
+                cmps r2, r3                                        13138
+                movcc r3, r2                                       13139
+                addi_uopcc r3, r3, #1                              13142
+#982           
+                ldr r0, [pc, #8]                                   10522
+                mov r9, r0                                         10547
+                mov r1, r9                                         10836
+                mov r10, r1                                        10922
+                cmps r0, r10                                       13103
+                mov r4, r0                                         13104
+                addcc r6, r4, #1                                   13144
+#983           
+                cmps r3, #0                                        13163
+                subeq r3, r3, #1                                   13164
+#984           
+                subi_uop sp, sp, #4                                13166
+#985           
+                sub sp, sp, #4                                     13168
+#986           
+                subi_uop sp, sp, #16                               13210
+#987           
+                cmns r6, #1                                        13241
+                and r4, r6, #255                                   13247
+#988           
+                ldr r3, [r5, #32]                                  13244
+                cmps r2, r3                                        13245
+                addi_uop r2, r2, #1                                13249
+#989           
+                moveq r3, #1                                       13256
+                ldr r1, [r5, #0]                                   13250
+                ands r3, r3, r1, LSR #9                            13257
+#990           
+                subi_uop sp, sp, #8                                13299
+#991           
+                ldr r1, [r5, #16]                                  13293
+                ldr r0, [r8, #0]                                   13135
+                mov r5, r0                                         13213
+                str [r5, r2, #20]                                  13251
+                rsb r2, r1, r2                                     13295
+                subs r4, r2, #0                                    13300
+#992           
+                subi_uop sp, sp, #20                               13343
+#993           
+                ldr r3, [r0, #0]                                   13337
+                ands r4, r3, #4096                                 13344
+#994           
+                sub sp, sp, #12                                    13345
+#995           
+                subi_uop sp, sp, #24                               13428
+#996           
+                ldr r1, [r5, #16]                                  13293
+                ldr r0, [r8, #0]                                   13135
+                mov r5, r0                                         13213
+                str [r5, r2, #20]                                  13251
+                rsb r2, r1, r2                                     13295
+                mov r6, r2                                         13348
+                mov r2, r6                                         13378
+                subs r8, r2, #0                                    13429
+#997           
+                ldr r1, [r5, #16]                                  13293
+                mov r7, r1                                         13347
+                mov r1, r7                                         13380
+                mov r5, r1                                         13431
+                ldr r0, [r6, #56]                                  13447
+                add r5, r5, r0                                     13515
+#998           
+                ldr r0, [r8, #0]                                   13135
+                mov r5, r0                                         13213
+                mov r0, r5                                         13294
+                mov r5, r0                                         13346
+                mov r0, r5                                         13379
+                mov r6, r0                                         13430
+                add r1, r6, #80                                    13575
+#999           
+                addi_uop r35, r1, #0                               13576
+#1000          
+                addi_uop sp, sp, #24                               13584
+#1001          
+                ldr r2, [r5, #0]                                   13638
+                ldr r3, [pc, #56]                                  13639
+                and r3, r2, r3                                     13640
+#1002          
+                add sp, sp, #12                                    13655
+#1003          
+                addi_uop sp, sp, #20                               13659
+#1004          
+                addi_uopne sp, sp, #8                              13692
+#1005          
+                addi_uop sp, sp, #8                                13758
+#1006          
+                addi_uop sp, sp, #16                               13803
+#1007          
+                add sp, sp, #4                                     13835
+#1008          
+                addi_uop sp, sp, #4                                13837
+#1009          
+                ldr2_uop r4, [sp, #0]                              13801
+                add r6, r4, #1                                     13863
+#1010          
+                ldr r3, [r5, #4]                                   13869
+                sub r3, r3, #1                                     13870
+#1011          
+                mvn r3, #61440                                     13883
+                sub pc, r3, #63                                    13885
+#1012          
+                ldrex r3, [r2, #0]                                 13923
+                cmps r4, #0                                        13547
+                rsb r0, r4, r8                                     13578
+                subs r3, r3, r0                                    13924
+#1013          
+                addi_uop sp, sp, #32                               14016
+#1014          
+                sub sp, fp, #12                                    14046
+#1015          
+                addi_uop r35, sp, #0                               14047
+#1016          
+                cmps r3, #0                                        14115
+                sub r3, r3, #1                                     14117
+#1017          
+                ldr r0, [r4, #0]                                   14113
+                str [r0, r3, #4]                                   14118
+                mov r3, r3, LSL #1                                 14119
+                add r3, r3, #1                                     14120
+#1018          
+                ldr r0, [r4, #0]                                   14113
+                mov r3, r3, LSL #3                                 14197
+                add r3, r0, r3                                     14198
+#1019          
+                subi_uop sp, sp, #12                               14240
+#1020          
+                sub sp, sp, #4                                     14242
+#1021          
+                ldr r2, [pc, #56]                                  14235
+                ldr r2, [pc, #56]                                  14235
+                ldr r3, [pc, #56]                                  14236
+                rsb r3, r2, r3                                     14241
+                movs r4, r3, ASR #2                                14243
+                mov r3, r4, LSL #2                                 14245
+                add r5, r2, r3                                     14246
+#1022          
+                subi_uop r5, r5, #4                                14248
+#1023          
+                subi_uop sp, sp, #8                                14292
+#1024          
+                sub sp, sp, #24                                    14295
+#1025          
+                add sp, sp, #24                                    14654
+#1026          
+                addi_uop sp, sp, #8                                14656
+#1027          
+                ldr2_uop r4, [sp, #0]                              14655
+                subs r4, r4, #1                                    14658
+#1028          
+                subi_uop r5, r5, #4                                14661
+#1029          
+                subi_uop sp, sp, #8                                14732
+#1030          
+                addi_uopne sp, sp, #8                              14737
+#1031          
+                addi_uop sp, sp, #8                                14802
+#1032          
+                ldr2_uop r4, [sp, #0]                              14801
+                subs r4, r4, #1                                    14804
+#1033          
+                add sp, sp, #4                                     14866
+#1034          
+                addi_uop sp, sp, #12                               14869
+#1035          
+                subi_uop sp, sp, #4                                14872
+#1036          
+                sub sp, sp, #4                                     14873
+#1037          
+                add sp, sp, #4                                     14874
+#1038          
+                addi_uop sp, sp, #4                                14876
+#1039          
+                ldr r4, [pc, #108]                                 14979
+                addi_uop r4, r4, #4                                14984
+#1040          
+                subi_uop sp, sp, #36                               15013
+#1041          
+                sub sp, sp, #4                                     15015
+#1042          
+                subi_uop sp, sp, #36                               15029
+#1043          
+                ldr r3, [pc, #816]                                 15019
+                subs r3, r3, #0                                    15030
+#1044          
+                sub sp, sp, #28                                    15032
+#1045          
+                add sp, sp, #28                                    15309
+#1046          
+                addi_uop sp, sp, #36                               15315
+#1047          
+                ldr r2, [r5, #0]                                   15324
+                ands r1, r2, #2                                    15325
+#1048          
+                ldr r2, [r5, #0]                                   15443
+                ands r1, r2, #2                                    15444
+#1049          
+                ldr r2, [r5, #0]                                   15443
+                ldr r3, [pc, #492]                                 15464
+                and r3, r2, r3                                     15465
+#1050          
+                mvn r0, #61440                                     15473
+                sub pc, r0, #31                                    15474
+#1051          
+                mrc r0, tpidruro                                   15513
+                sub r7, r0, #1184                                  15515
+#1052          
+                mvn r3, #61440                                     15527
+                sub pc, r3, #63                                    15529
+#1053          
+                ldrex r3, [r2, #0]                                 15550
+                ldr r0, [r4, #0]                                   14914
+                subs r3, r3, r0                                    15551
+#1054          
+                mov r4, r1                                         15521
+                mov r3, r4                                         15615
+                subs r1, r3, #0                                    15616
+#1055          
+                tsts r0, #1                                        15645
+                orr r2, r0, #1                                     15677
+#1056          
+                subi_uop sp, sp, #8                                15701
+#1057          
+                subi_uop sp, sp, #16                               15711
+#1058          
+                subi_uop sp, sp, #12                               15750
+#1059          
+                sub sp, sp, #12                                    15752
+#1060          
+                ldr2_uop r2, [r5, #4]                              15755
+                ldr r3, [r0, #152]                                 15712
+                subs r2, r2, r3                                    15756
+#1061          
+                add sp, sp, #12                                    15763
+#1062          
+                addi_uop sp, sp, #12                               15766
+#1063          
+                ldr r3, [r4, #0]                                   15809
+                orr r3, r3, #2                                     15811
+#1064          
+                moveq r4, #0                                       15802
+                mov r1, r4                                         15810
+                addi_uop r1, r1, #71                               15814
+#1065          
+                moveq r4, #0                                       15802
+                add r2, r4, #72                                    15815
+#1066          
+                subi_uop sp, sp, #20                               15834
+#1067          
+                sub sp, sp, #4                                     15836
+#1068          
+                tsts r3, #1                                        15866
+                bicne r3, r3, #1                                   15869
+                orreq r3, r3, #1                                   15870
+#1069          
+                add sp, sp, #4                                     15875
+#1070          
+                addi_uop sp, sp, #20                               15879
+#1071          
+                addi_uop sp, sp, #16                               15901
+#1072          
+                addi_uop sp, sp, #8                                15956
+#1073          
+                ldr r3, [r6, #4]                                   15996
+                sub r3, r3, #1                                     15997
+#1074          
+                mvn r3, #61440                                     16045
+                sub pc, r3, #63                                    16047
+#1075          
+                ldrex r3, [r2, #0]                                 16048
+                ldr r0, [r5, #0]                                   15644
+                subs r3, r3, r0                                    16049
+#1076          
+                ldr r2, [r5, #0]                                   16180
+                ands r1, r2, #2                                    16181
+#1077          
+                ldr r2, [r5, #0]                                   16180
+                ldr r3, [pc, #492]                                 16183
+                and r3, r2, r3                                     16184
+#1078          
+                add sp, sp, #4                                     16270
+#1079          
+                addi_uop sp, sp, #36                               16276
