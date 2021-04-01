@@ -2,10 +2,10 @@
 Code of "Eva-CiM: A System-Level Performance and Energy Evaluation Framework for Computing-in-Memory Architectures", TCAD 2020
 
 We assume the users are familiar with gem5 and mcpat:
-	build and test gem5 correctly, make sure $GEM5_DIR/build/ARM/gem5.opt exists;
-	install and test cross compiler (we use arm-linux-gnueabihf);
-	build gem5-mcpat-parser, make sure $GEM5_DIR/power_tool/gem5-mcpat-parser/gem5-mcpat-parser exists;
-	build mcpat, make sure $GEM5_DIR/power_tool/mcpat/mcpat exists.
+1.	build and test gem5 correctly, make sure $GEM5_DIR/build/ARM/gem5.opt exists;
+2.	install and test cross compiler (we use arm-linux-gnueabihf);
+3.	build gem5-mcpat-parser, make sure $GEM5_DIR/power_tool/gem5-mcpat-parser/gem5-mcpat-parser exists;
+4.	build mcpat, make sure $GEM5_DIR/power_tool/mcpat/mcpat exists.
 
 Then, get started with Eva-CiM.
 1.	Run gem5:
